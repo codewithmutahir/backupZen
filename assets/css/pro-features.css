@@ -1,0 +1,705 @@
+/**
+ * BackupZen PRO Features CSS
+ * 
+ * Premium UI/UX styles for PRO features showcase, locked features, and upgrade modals
+ * 
+ * @package BackupZen
+ * @since 2.0.0
+ */
+
+/* ========================================
+   PRO BADGE
+   ======================================== */
+
+.backupzen-pro-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #ffffff;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+    margin-left: 8px;
+    animation: proGlow 2s ease-in-out infinite;
+}
+
+@keyframes proGlow {
+    0%, 100% {
+        box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 16px rgba(245, 158, 11, 0.6);
+    }
+}
+
+/* ========================================
+   PRO LOCK ICON
+   ======================================== */
+
+.backupzen-pro-lock {
+    color: #f59e0b;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+/* ========================================
+   PRO FEATURE CARD (Dashboard Showcase)
+   ======================================== */
+
+.backupzen-pro-features-showcase {
+    margin-bottom: 32px;
+}
+
+.backupzen-pro-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.backupzen-pro-feature-card {
+    position: relative;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: 2px solid #e2e8f0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backupzen-pro-feature-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 32px rgba(245, 158, 11, 0.2);
+    border-color: #f59e0b;
+}
+
+.backupzen-pro-feature-card:hover .pro-feature-overlay {
+    opacity: 0.15;
+}
+
+/* PRO Feature Overlay */
+.pro-feature-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    opacity: 0.08;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+/* Lock Icon (Large) */
+.pro-feature-lock {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.4);
+    animation: lockBounce 2s ease-in-out infinite;
+}
+
+.pro-feature-lock .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+}
+
+@keyframes lockBounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Content */
+.pro-feature-content {
+    position: relative;
+    z-index: 2;
+    padding: 24px;
+}
+
+.pro-feature-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pro-feature-icon .dashicons {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    color: #d97706;
+}
+
+.pro-feature-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.pro-feature-description {
+    font-size: 15px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+.pro-feature-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+}
+
+.pro-feature-benefits li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 14px;
+    color: #475569;
+}
+
+.pro-feature-benefits li .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    color: #10b981;
+    flex-shrink: 0;
+}
+
+/* Upgrade Button */
+.backupzen-pro-upgrade-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.backupzen-pro-upgrade-btn:hover {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+    color: #ffffff;
+}
+
+.backupzen-pro-upgrade-btn .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* ========================================
+   LOCKED FORM FIELDS (Inline PRO Features)
+   ======================================== */
+
+.backupzen-pro-locked-field {
+    position: relative;
+    cursor: not-allowed;
+    user-select: none;
+}
+
+.backupzen-pro-locked-field::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(241, 245, 249, 0.9) 0%, rgba(226, 232, 240, 0.9) 100%);
+    backdrop-filter: blur(2px);
+    z-index: 10;
+    border-radius: 8px;
+    cursor: not-allowed;
+}
+
+.backupzen-pro-locked-field .pro-locked-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.5);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.backupzen-pro-locked-field .pro-locked-overlay:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+    box-shadow: 0 6px 24px rgba(245, 158, 11, 0.6);
+}
+
+.backupzen-pro-locked-field .pro-locked-overlay .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Disabled state for locked inputs */
+.backupzen-pro-locked-field input,
+.backupzen-pro-locked-field select,
+.backupzen-pro-locked-field textarea {
+    pointer-events: none;
+    filter: blur(1px);
+}
+
+/* ========================================
+   PREMIUM MODAL
+   ======================================== */
+
+.backupzen-premium-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    display: none;
+    animation: modalFadeIn 0.3s ease;
+}
+
+.backupzen-premium-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Modal Overlay */
+.premium-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
+
+/* Modal Container */
+.premium-modal-container {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    width: 90%;
+    max-height: 90vh;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    animation: modalSlideUp 0.3s ease;
+}
+
+@keyframes modalSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Modal Header */
+.premium-modal-header {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #ffffff;
+    padding: 32px;
+    text-align: center;
+    position: relative;
+}
+
+.premium-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.premium-modal-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: rotate(90deg);
+}
+
+.premium-modal-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.premium-modal-icon .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+}
+
+.premium-modal-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+}
+
+.premium-modal-subtitle {
+    font-size: 16px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+}
+
+/* Modal Body */
+.premium-modal-body {
+    padding: 40px 32px;
+    overflow-y: auto;
+    max-height: calc(90vh - 300px);
+}
+
+.premium-feature-description {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.7;
+    margin: 0 0 32px 0;
+    text-align: center;
+}
+
+.premium-benefits-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.premium-benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+}
+
+.premium-benefits-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    background: #f8fafc;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    transition: all 0.2s ease;
+}
+
+.premium-benefits-list li:hover {
+    background: #f1f5f9;
+    transform: translateX(8px);
+}
+
+.premium-benefits-list li .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #10b981;
+    flex-shrink: 0;
+}
+
+.premium-benefits-list li strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+}
+
+.premium-benefits-list li span {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* Modal Footer */
+.premium-modal-footer {
+    padding: 24px 32px;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.premium-modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    flex: 1;
+    max-width: 300px;
+}
+
+.premium-modal-btn-primary {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
+}
+
+.premium-modal-btn-primary:hover {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(245, 158, 11, 0.4);
+    color: #ffffff;
+}
+
+.premium-modal-btn-secondary {
+    background: #ffffff;
+    color: #64748b;
+    border: 2px solid #e2e8f0;
+}
+
+.premium-modal-btn-secondary:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    color: #475569;
+}
+
+.premium-modal-btn .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* ========================================
+   PRO CATEGORIES TABS (Dashboard)
+   ======================================== */
+
+.backupzen-pro-categories {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.backupzen-pro-category-tab {
+    padding: 12px 24px;
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.backupzen-pro-category-tab:hover {
+    border-color: #f59e0b;
+    color: #d97706;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+}
+
+.backupzen-pro-category-tab.active {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    border-color: #f59e0b;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.backupzen-pro-category-tab .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 768px) {
+    .backupzen-pro-features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .premium-modal-container {
+        width: 95%;
+        max-height: 95vh;
+    }
+    
+    .premium-modal-header {
+        padding: 24px 20px;
+    }
+    
+    .premium-modal-body {
+        padding: 24px 20px;
+    }
+    
+    .premium-modal-footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .premium-modal-btn {
+        max-width: none;
+    }
+    
+    .backupzen-pro-categories {
+        justify-content: center;
+    }
+    
+    .backupzen-pro-category-tab {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+
+@keyframes shimmerPro {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.backupzen-pro-feature-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(245, 158, 11, 0.2) 50%,
+        transparent 100%
+    );
+    animation: shimmerPro 3s infinite;
+    pointer-events: none;
+    z-index: 5;
+}
+
+/* ========================================
+   TOOLTIP FOR LOCKED FEATURES
+   ======================================== */
+
+.backupzen-pro-tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background: #1e293b;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 100;
+}
+
+.backupzen-pro-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #1e293b;
+}
+
+.backupzen-pro-locked-field:hover .backupzen-pro-tooltip {
+    opacity: 1;
+}
+

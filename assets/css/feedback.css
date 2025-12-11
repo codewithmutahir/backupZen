@@ -1,0 +1,463 @@
+/**
+ * Feedback Widget Styles
+ *
+ * @package BackupZen
+ * @since 1.0.0
+ */
+
+/* Floating Widget Button */
+.backupzen-feedback-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999998;
+}
+
+.backupzen-feedback-trigger {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: backupzen-pulse 2s ease-in-out infinite;
+}
+
+.backupzen-feedback-trigger:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(102, 126, 234, 0.6);
+}
+
+.backupzen-feedback-trigger:active {
+    transform: scale(0.95);
+}
+
+@keyframes backupzen-pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Modal Overlay */
+.backupzen-feedback-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.backupzen-feedback-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.backupzen-feedback-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.backupzen-feedback-modal-container {
+    position: relative;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: scale(0.9) translateY(20px);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px;
+}
+
+.backupzen-feedback-modal.active .backupzen-feedback-modal-container {
+    transform: scale(1) translateY(0);
+}
+
+.backupzen-feedback-modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.backupzen-feedback-modal-close:hover {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Modal Content */
+.backupzen-feedback-step {
+    animation: backupzen-fade-in 0.3s ease;
+}
+
+@keyframes backupzen-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.backupzen-feedback-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+    font-family: poppins;
+}
+
+.backupzen-feedback-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 30px 0;
+    line-height: 1.5;
+    font-family: poppins;
+}
+
+/* Options Grid */
+.backupzen-feedback-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.backupzen-feedback-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: center;
+    font-family: poppins;
+}
+
+.backupzen-feedback-option:hover {
+    border-color: #667eea;
+    background: #f8f9ff;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+}
+
+.backupzen-feedback-option-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    color: #ffffff;
+    margin-bottom: 16px;
+    transition: transform 0.25s ease;
+}
+
+.backupzen-feedback-option:hover .backupzen-feedback-option-icon {
+    transform: scale(1.1);
+}
+
+.backupzen-feedback-option h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 8px 0;
+}
+
+.backupzen-feedback-option p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Forms */
+.backupzen-feedback-form {
+    margin-top: 30px;
+}
+
+.backupzen-form-group {
+    margin-bottom: 24px;
+}
+
+.backupzen-form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: poppins;
+}
+
+.backupzen-form-group .required {
+    color: #e74c3c;
+}
+
+.backupzen-form-group .optional {
+    color: #999;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.backupzen-form-group input[type="text"],
+.backupzen-form-group input[type="email"],
+.backupzen-form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.backupzen-form-group input[type="text"]:focus,
+.backupzen-form-group input[type="email"]:focus,
+.backupzen-form-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.backupzen-form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: poppins;
+}
+
+/* Star Rating */
+.backupzen-feedback-rating {
+    margin-bottom: 30px;
+}
+
+.backupzen-feedback-rating label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+    font-family: poppins;
+}
+
+.backupzen-stars {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.backupzen-star {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #ddd;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backupzen-star:hover,
+.backupzen-star.active,
+.backupzen-star.hovered {
+    color: #ffc107;
+    transform: scale(1.1);
+}
+
+.backupzen-star svg {
+    width: 40px;
+    height: 40px;
+}
+
+/* Buttons */
+.backupzen-feedback-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.backupzen-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: inherit;
+    font-family: poppins;
+}
+
+.backupzen-btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    font-family: poppins;
+}
+
+.backupzen-btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.backupzen-btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.backupzen-btn-secondary {
+    background: #f5f5f5;
+    color: #666;
+    font-family: poppins;
+}
+
+.backupzen-btn-secondary:hover {
+    background: #e5e5e5;
+    color: #333;
+}
+
+.backupzen-btn-spinner {
+    display: inline-block;
+    animation: backupzen-spin 1s linear infinite;
+}
+
+@keyframes backupzen-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Success Screen */
+.backupzen-feedback-success {
+    text-align: center;
+    padding: 20px 0;
+    font-family: poppins;
+}
+
+.backupzen-feedback-success-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    border-radius: 50%;
+    color: #ffffff;
+    animation: backupzen-scale-in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes backupzen-scale-in {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .backupzen-feedback-widget {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .backupzen-feedback-trigger {
+        width: 56px;
+        height: 56px;
+    }
+
+    .backupzen-feedback-modal-container {
+        width: 95%;
+        padding: 30px 20px;
+        max-height: 95vh;
+    }
+
+    .backupzen-feedback-options {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .backupzen-feedback-title {
+        font-size: 24px;
+    }
+
+    .backupzen-feedback-actions {
+        flex-direction: column-reverse;
+    }
+
+    .backupzen-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Scrollbar Styling */
+.backupzen-feedback-modal-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.backupzen-feedback-modal-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.backupzen-feedback-modal-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.backupzen-feedback-modal-container::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
