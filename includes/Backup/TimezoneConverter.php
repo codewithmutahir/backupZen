@@ -180,7 +180,9 @@ class TimezoneConverter
             return $target->getTimestamp();
             
         } catch (\Exception $e) {
-            error_log('BackupZen TimezoneConverter: Error calculating next run time: ' . $e->getMessage());
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen TimezoneConverter: Error calculating next run time: ' . $e->getMessage());
+            }
             return false;
         }
     }
@@ -200,7 +202,10 @@ class TimezoneConverter
             $datetime->setTimezone($wp_tz);
             return $datetime->format($format);
         } catch (\Exception $e) {
-            error_log('BackupZen TimezoneConverter: Error converting timestamp: ' . $e->getMessage());
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen TimezoneConverter: Error converting timestamp: ' . $e->getMessage());
+            }
+            // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Fallback for local time display
             return date($format, $utc_timestamp);
         }
     }

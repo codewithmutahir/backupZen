@@ -64,7 +64,8 @@ class CleanupManager
             return array(
                 'success' => true,
                 'deleted' => 0,
-                'message' => sprintf(__('Keeping all %d backups (limit: %d)', 'backupzen'), count($backups), $cleanup_keep),
+                /* translators: 1: Number of backups, 2: Backup limit */
+                'message' => sprintf(__('Keeping all %1$d backups (limit: %2$d)', 'backupzen'), count($backups), $cleanup_keep),
             );
         }
         
@@ -83,8 +84,9 @@ class CleanupManager
             }
         }
         
+        /* translators: 1: Number of backups deleted, 2: Number of backups kept */
         $message = sprintf(
-            __('Deleted %d old backup(s), kept %d most recent', 'backupzen'),
+            __('Deleted %1$d old backup(s), kept %2$d most recent', 'backupzen'),
             $deleted_count,
             $cleanup_keep
         );
@@ -170,7 +172,9 @@ class CleanupManager
      */
     private function log($message)
     {
-        error_log('BackupZen CleanupManager: ' . $message);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen CleanupManager: ' . $message);
+        }
     }
 }
 

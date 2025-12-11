@@ -66,8 +66,9 @@ $recent_history = array_slice($backup_history, 0, 5);
                             $status['next_run_timestamp'], 
                             'M j, Y \a\t g:i A'
                         );
+                        /* translators: 1: Time until next backup (e.g., "2 hours"), 2: Time of next backup (e.g., "3:00 PM") */
                         printf(
-                            esc_html__('Next backup in %s at %s', 'backupzen'),
+                            esc_html__('Next backup in %1$s at %2$s', 'backupzen'),
                             '<strong>' . esc_html($status['next_run_relative']) . '</strong>',
                             '<strong>' . esc_html($next_run_12hr) . '</strong>'
                         );
@@ -205,8 +206,9 @@ $recent_history = array_slice($backup_history, 0, 5);
                                 <span class="field-hint">
                                     <?php 
                                     $time_12hr = \BackupZen\Backup\TimezoneConverter::convert_to_12_hour($schedule_time);
+                                    /* translators: 1: Timezone offset string (e.g., "UTC+5"), 2: Current time in 12-hour format */
                                     printf(
-                                        esc_html__('Backups will run at this time in your timezone (%s). Currently set to: %s', 'backupzen'),
+                                        esc_html__('Backups will run at this time in your timezone (%1$s). Currently set to: %2$s', 'backupzen'),
                                         '<strong>' . esc_html($tz_info['offset_string']) . '</strong>',
                                         '<strong id="current-time-display">' . esc_html($time_12hr) . '</strong>'
                                     );
@@ -228,7 +230,7 @@ $recent_history = array_slice($backup_history, 0, 5);
                                     foreach ($quick_times as $time_24 => $time_label) :
                                         $is_selected = ($schedule_time === $time_24) ? 'selected' : '';
                                     ?>
-                                    <button type="button" class="quick-time-btn <?php echo $is_selected; ?>" data-time="<?php echo esc_attr($time_24); ?>"><?php echo esc_html($time_label); ?></button>
+                                    <button type="button" class="quick-time-btn <?php echo esc_attr($is_selected); ?>" data-time="<?php echo esc_attr($time_24); ?>"><?php echo esc_html($time_label); ?></button>
                                     <?php endforeach; ?>
                                 </div>
                             </div>

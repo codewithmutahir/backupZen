@@ -26,23 +26,30 @@ class ScheduleManager
      */
     public function update_schedule($enabled, $frequency, $time)
     {
-        error_log('====================================');
-        error_log('ScheduleManager: update_schedule called');
-        error_log('Enabled: ' . ($enabled ? 'YES' : 'NO'));
-        error_log('Frequency: ' . $frequency);
-        error_log('Time (LOCAL): ' . $time);
-        error_log('====================================');
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('====================================');
+            error_log('ScheduleManager: update_schedule called');
+            error_log('Enabled: ' . ($enabled ? 'YES' : 'NO'));
+            error_log('Frequency: ' . $frequency);
+            error_log('Time (LOCAL): ' . $time);
+            error_log('====================================');
+        }
         
         // Clear existing schedule first
         $timestamp = wp_next_scheduled('backupzen_scheduled_backup_event');
         if ($timestamp) {
             wp_unschedule_event($timestamp, 'backupzen_scheduled_backup_event');
-            error_log('ScheduleManager: Cleared existing schedule at ' . date('Y-m-d H:i:s', $timestamp));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+                error_log('ScheduleManager: Cleared existing schedule at ' . date('Y-m-d H:i:s', $timestamp));
+            }
         }
         
         // If disabled, stop here
         if (!$enabled) {
-            error_log('ScheduleManager: Schedule disabled, not rescheduling');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('ScheduleManager: Schedule disabled, not rescheduling');
+            }
             return true;
         }
         
@@ -50,31 +57,45 @@ class ScheduleManager
         $next_run = TimezoneConverter::calculate_next_run_time($frequency, $time);
         
         if (!$next_run) {
-            error_log('ScheduleManager: ERROR - Failed to calculate next run time');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('ScheduleManager: ERROR - Failed to calculate next run time');
+            }
             return false;
         }
         
-        error_log('ScheduleManager: Next run timestamp (UTC): ' . $next_run);
-        error_log('ScheduleManager: Next run date (UTC): ' . gmdate('Y-m-d H:i:s', $next_run));
-        error_log('ScheduleManager: Next run date (LOCAL): ' . date('Y-m-d H:i:s', $next_run));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('ScheduleManager: Next run timestamp (UTC): ' . $next_run);
+            error_log('ScheduleManager: Next run date (UTC): ' . gmdate('Y-m-d H:i:s', $next_run));
+            // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+            error_log('ScheduleManager: Next run date (LOCAL): ' . date('Y-m-d H:i:s', $next_run));
+        }
         
         // Schedule the event
         $result = wp_schedule_event($next_run, $frequency, 'backupzen_scheduled_backup_event');
         
         if ($result === false) {
-            error_log('ScheduleManager: ERROR - Failed to schedule event');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('ScheduleManager: ERROR - Failed to schedule event');
+            }
             return false;
         }
         
-        error_log('ScheduleManager: Successfully scheduled backup');
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('ScheduleManager: Successfully scheduled backup');
+        }
         
         // Verify it was scheduled
         $verify = wp_next_scheduled('backupzen_scheduled_backup_event');
         if ($verify) {
-            error_log('ScheduleManager: VERIFIED - Next run at ' . date('Y-m-d H:i:s', $verify));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+                error_log('ScheduleManager: VERIFIED - Next run at ' . date('Y-m-d H:i:s', $verify));
+            }
             return true;
         } else {
-            error_log('ScheduleManager: ERROR - Schedule verification failed');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('ScheduleManager: ERROR - Schedule verification failed');
+            }
             return false;
         }
     }

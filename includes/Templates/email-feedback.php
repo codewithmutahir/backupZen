@@ -135,7 +135,7 @@ if (! defined('ABSPATH')) {
                         <span class="info-label"><?php esc_html_e('Rating:', 'backupzen'); ?></span>
                         <span class="info-value">
                             <span class="rating-display">
-                                <span class="rating-stars"><?php echo str_repeat('★', $data['rating']); ?></span>
+                                <span class="rating-stars"><?php echo esc_html(str_repeat('★', $data['rating'])); ?></span>
                                 <span><?php echo esc_html($data['rating']); ?>/5</span>
                             </span>
                         </span>

@@ -1,0 +1,2038 @@
+Line	Column	Type	Code	Message
+22	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+25	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+37	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+38	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+72	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+94	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+95	49	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+95	99	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+100	51	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to _n() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+100	111	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+103	57	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to _n() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+103	138	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+109	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+119	150	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+124	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+128	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+142	89	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+143	49	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+143	102	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+153	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+157	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to _n() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+157	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+171	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+173	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+177	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+234	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+239	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+239	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+250	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+257	105	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+269	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+277	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+283	89	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+288	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+293	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+304	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+310	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+313	157	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+315	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+321	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+340	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+345	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+348	173	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+351	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+355	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+366	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+369	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: templates/manual-backup.php
+Line	Column	Type	Code	Message
+17	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+20	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+32	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+33	128	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+46	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+58	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+59	127	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+75	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+76	125	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+90	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+102	111	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+105	130	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+107	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+108	103	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+109	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+124	118	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+126	102	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+127	103	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+142	115	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+144	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+145	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+160	121	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+162	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+163	102	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+176	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+177	197	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+188	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+193	106	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+207	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+208	120	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+229	113	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+230	96	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+263	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+264	166	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+273	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+277	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+290	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+298	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: templates/dashboard.php
+Line	Column	Type	Code	Message
+19	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+22	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+34	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+38	49	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+49	84	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+64	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+68	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+83	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+87	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+92	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+95	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+105	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+114	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+115	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+125	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+126	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+136	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+137	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+151	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+154	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+184	95	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+195	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+219	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+235	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+236	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+243	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+247	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+251	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+255	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+259	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+307	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+324	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+330	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+334	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+338	93	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+342	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+346	95	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+350	96	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: templates/scheduled-backups-new.php
+Line	Column	Type	Code	Message
+39	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+42	87	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+56	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+58	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+70	29	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to esc_html__() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+70	40	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$s, %2$s", but got "%s, %s" in 'Next backup in %s at %s'.
+Learn more (opens in a new tab)
+70	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+75	94	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+77	87	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+98	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+101	96	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+110	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+118	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+128	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+140	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+140	121	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+145	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+150	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+155	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+160	87	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+164	124	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+176	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+179	200	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+183	93	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+195	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+209	41	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to esc_html__() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+209	52	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$s, %2$s", but got "%s, %s" in 'Backups will run at this time in your timezone (%s). Currently set to: %s'.
+Learn more (opens in a new tab)
+209	129	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+245	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+248	93	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+257	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+265	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+275	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+281	113	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+289	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+297	95	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+311	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+314	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+323	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+331	95	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+339	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+344	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+347	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+360	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+370	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+375	84	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+389	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+394	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+398	102	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+411	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+421	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+429	87	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+430	124	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+449	138	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+454	104	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+454	132	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+300	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+302	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+304	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+320	29	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+321	29	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+332	29	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+333	29	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+342	33	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+343	33	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+352	37	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+353	37	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+362	37	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+363	37	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+515	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+520	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+550	60	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+550	94	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+578	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+620	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+621	49	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+621	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+638	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+661	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+662	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+662	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+679	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+717	90	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+718	49	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+718	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+733	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+738	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+748	59	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+748	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+767	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+785	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+959	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+965	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+984	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+989	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+997	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1061	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1070	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1081	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1091	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1098	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1116	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1151	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1164	111	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1181	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1186	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1191	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1199	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1206	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1287	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1353	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1362	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1385	37	ERROR	WordPress.WP.I18n.NonSingularStringLiteralText	The $text parameter must be a single text string literal. Found: 'SQL file contains potentially dangerous statements. Pattern matched: ' . $pattern
+Learn more (opens in a new tab)
+1385	121	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1433	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1486	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1492	34	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1492	93	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1554	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1604	45	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1604	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1607	41	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1607	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1617	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1624	34	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1624	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1653	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1673	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1678	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1683	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1691	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1698	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1761	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1917	87	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1918	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1918	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1919	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1919	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1920	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1920	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1929	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1987	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1988	128	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1989	107	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2006	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2011	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2016	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2024	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2032	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2044	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2047	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2056	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2061	90	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2075	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2080	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2085	84	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2092	93	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2109	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2125	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2133	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2172	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2177	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2182	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2226	13	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+2226	16	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$d, %2$d", but got "%d, %d" in 'Deleted %d of %d backup(s).'.
+Learn more (opens in a new tab)
+2226	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2232	39	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+2232	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2249	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2254	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2315	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2336	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2359	38	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+2359	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2367	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2379	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2397	38	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+2397	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2405	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2417	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2437	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2449	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2466	38	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+2466	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2474	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2487	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2492	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2497	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2505	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2513	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2532	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2550	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2674	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2680	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2697	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2702	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2710	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2723	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2728	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2733	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2744	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2751	87	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2768	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2782	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2838	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2841	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2844	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2852	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2864	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2869	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2878	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2892	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2900	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2911	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2920	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2927	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2948	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+2974	49	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3377	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3378	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3458	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3482	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3494	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3507	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3521	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3621	94	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3626	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3628	137	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3640	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3641	136	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3654	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3666	106	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3667	135	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3683	109	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3684	133	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3698	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3710	119	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3713	138	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3715	105	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3716	111	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3717	109	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3732	126	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3734	110	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3735	111	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3750	123	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3752	109	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3753	109	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3768	129	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3770	106	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3771	110	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3784	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3785	205	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3796	99	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3801	114	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3815	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3816	120	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3837	113	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3838	96	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3871	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3872	166	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3881	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3885	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3895	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3904	45	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to _n() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+3904	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3923	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3924	45	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+3924	95	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3929	47	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to _n() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+3929	107	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3932	53	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to _n() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+3932	134	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3938	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3948	146	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3953	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3957	84	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3971	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3972	45	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+3972	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3984	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+3986	120	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4045	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4050	45	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+4050	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4061	89	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4068	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4080	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4088	89	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4094	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4099	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4104	89	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4115	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4121	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4124	149	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4126	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4132	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4154	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4159	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4162	181	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4165	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4169	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4180	74	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4183	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4196	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+4204	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: views/premium-modal.php
+Line	Column	Type	Code	Message
+21	106	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+30	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+34	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+42	152	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+46	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+53	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+54	113	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+61	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+62	103	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+69	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+70	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+77	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+78	117	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+86	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+92	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+98	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+111	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+123	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+126	120	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+135	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: views/feedback-modal.php
+Line	Column	Type	Code	Message
+17	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+28	114	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+37	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+40	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+50	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+51	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+60	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+61	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+70	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+71	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+84	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+87	156	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+87	176	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+97	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+97	171	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+98	177	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+105	76	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+109	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+117	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+124	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+127	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+148	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+150	114	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+153	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Backup/EmailNotifier.php
+Line	Column	Type	Code	Message
+42	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+55	81	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+69	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+83	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+83	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+93	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+93	20	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$s, %2$s", but got "%s, %s" in 'Backup file: %s<br>File size: %s'.
+Learn more (opens in a new tab)
+93	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+99	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+99	42	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+106	99	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+109	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+109	33	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+147	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+154	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+172	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+191	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+191	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+201	36	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+204	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+204	20	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$s, %2$s, %3$s", but got "%s, %s, %s" in 'Your backup schedule has been configured!<br><br>\r\n <strong>Frequency:</strong> %s<br>\r\n <strong>Time:</strong> %s<br>\r\n <strong>Next Backup:</strong> %s<br><br>\r\n Your site will be automatically backed up according to this schedule.'.
+Learn more (opens in a new tab)
+208	89	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+215	17	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+215	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+221	205	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+247	21	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+247	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+255	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+271	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+283	13	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+283	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+292	142	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+309	21	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+309	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+316	102	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Backup/BackupScanner.php
+Line	Column	Type	Code	Message
+164	37	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+165	36	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+166	36	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+167	39	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+168	39	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+169	41	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Backup/CleanupManager.php
+Line	Column	Type	Code	Message
+47	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+67	38	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+67	41	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$d, %2$d", but got "%d, %d" in 'Keeping all %d backups (limit: %d)'.
+Learn more (opens in a new tab)
+67	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+87	13	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+87	16	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$d, %2$d", but got "%d, %d" in 'Deleted %d old backup(s), kept %d most recent'.
+Learn more (opens in a new tab)
+87	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+93	39	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+93	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Backup/BzenPackager.php
+Line	Column	Type	Code	Message
+76	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+91	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+175	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+204	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+328	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+341	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+359	25	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+359	28	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$s, %2$d, %3$d", but got "%s, %d, %d" in 'Exporting table structure: %s (%d of %d)'.
+Learn more (opens in a new tab)
+359	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+421	37	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+421	40	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$s, %2$d, %3$d", but got "%s, %d, %d" in 'Exporting table data: %s (%d of %d rows)'.
+Learn more (opens in a new tab)
+421	84	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+433	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+457	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+481	69	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+518	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+543	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+614	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+622	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+632	86	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+648	68	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+670	90	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+774	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+781	71	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+804	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+939	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+945	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+955	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+962	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+966	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+971	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+992	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1005	51	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1020	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1025	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1062	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1071	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1077	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1093	67	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1097	63	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1104	62	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1111	25	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+1111	28	ERROR	WordPress.WP.I18n.UnorderedPlaceholdersText	Multiple placeholders in translatable strings should be ordered. Expected "%1$d, %2$d", but got "%d, %d" in 'Adding files: %d of %d'.
+Learn more (opens in a new tab)
+1111	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1120	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1128	96	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+1137	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Templates/email-feedback.php
+Line	Column	Type	Code	Message
+21	40	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+21	70	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+122	45	ERROR	WordPress.WP.I18n.MissingTranslatorsComment	A function call to __() with texts containing placeholders was found, but was not accompanied by a "translators:" comment on the line above to clarify the meaning of the placeholders.
+Learn more (opens in a new tab)
+122	75	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+128	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+130	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+135	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+148	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+150	72	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+154	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+162	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+164	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+168	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+174	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+179	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+186	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+188	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+192	85	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+196	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+200	77	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+207	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+209	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+213	79	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+220	99	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Admin/Feedback.php
+Line	Column	Type	Code	Message
+162	80	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+170	83	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+185	99	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+193	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+197	138	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+202	82	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+206	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+210	78	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+233	120	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+240	126	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+254	34	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+271	43	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: includes/Premium/ProFeaturesManager.php
+Line	Column	Type	Code	Message
+54	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+55	110	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+59	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+60	49	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+61	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+65	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+66	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+70	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+71	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+72	42	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+76	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+77	103	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+81	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+82	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+83	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+87	56	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+88	104	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+92	49	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+93	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+94	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+98	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+99	103	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+103	49	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+104	51	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+105	41	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+111	60	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+112	108	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+116	53	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+117	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+118	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+122	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+123	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+127	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+128	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+129	43	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+133	57	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+134	88	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+138	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+139	52	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+140	44	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+146	55	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+147	92	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+151	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+152	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+153	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+157	65	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+158	103	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+162	42	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+163	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+164	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+168	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+169	101	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+173	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+174	50	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+175	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+179	66	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+180	100	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+184	44	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+185	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+186	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+192	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+193	96	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+197	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+198	39	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+199	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+203	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+204	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+208	44	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+209	48	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+210	41	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+214	59	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+215	91	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+219	46	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+220	47	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+221	43	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+225	58	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+226	97	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+230	43	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+231	51	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+232	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+238	54	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+239	98	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+243	44	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+244	49	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+245	45	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+249	64	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+250	94	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+254	39	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+255	41	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+256	40	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+337	73	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+399	61	ERROR	WordPress.WP.I18n.TextDomainMismatch	Mismatched text domain. Expected 'backupZen' but got 'backupzen'.
+Learn more (opens in a new tab)
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+0	0	WARNING	textdomain_mismatch	The "Text Domain" header in the plugin file does not match the slug. Found "backupzen", expected "backupZen".
+Learn more (opens in a new tab)
+0	0	WARNING	plugin_header_nonexistent_domain_path	The "Domain Path" header in the plugin file must point to an existing folder. Found: "languages"
+Learn more (opens in a new tab)
+
+FILE: templates/available-backups.php
+Line	Column	Type	Code	Message
+65	44	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$pro_manager'.
+Learn more (opens in a new tab)
+
+FILE: templates/dashboard.php
+Line	Column	Type	Code	Message
+290	40	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$pro_manager'.
+Learn more (opens in a new tab)
+
+FILE: templates/scheduled-backups-new.php
+Line	Column	Type	Code	Message
+231	92	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$is_selected'.
+Learn more (opens in a new tab)
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+3458	20	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+Learn more (opens in a new tab)
+3482	20	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+Learn more (opens in a new tab)
+3494	20	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+Learn more (opens in a new tab)
+3507	20	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+Learn more (opens in a new tab)
+3521	20	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+Learn more (opens in a new tab)
+
+FILE: includes/Backup/EmailNotifier.php
+Line	Column	Type	Code	Message
+369	56	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$data['details']'.
+Learn more (opens in a new tab)
+
+FILE: includes/Templates/email-feedback.php
+Line	Column	Type	Code	Message
+138	71	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'str_repeat'.
+Learn more (opens in a new tab)
+
+FILE: includes/Premium/ProFeaturesManager.php
+Line	Column	Type	Code	Message
+382	32	ERROR	WordPress.Security.EscapeOutput.OutputNotEscaped	All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$this'.
+Learn more (opens in a new tab)
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+612	14	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+700	18	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+704	30	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+707	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+711	10	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+1230	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_readfile	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: readfile().
+1283	19	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+1292	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1293	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1294	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1295	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1311	17	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1312	17	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1313	17	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1319	17	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1327	21	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1329	17	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+1333	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+1463	40	ERROR	WordPress.DB.PreparedSQL.NotPrepared	Use placeholders and $wpdb->prepare(); found $statement
+1865	14	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_rmdir	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: rmdir().
+1876	18	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+1881	10	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_rmdir	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: rmdir().
+2051	14	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+2208	18	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+2333	18	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+2353	14	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+2442	19	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+2446	14	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+2454	30	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+2457	9	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+2461	10	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+2750	14	ERROR	Generic.PHP.ForbiddenFunctions.Found	The use of function move_uploaded_file() is forbidden
+3008	68	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3020	56	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3034	70	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3066	39	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3096	32	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3115	61	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3126	59	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3339	61	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+3381	100	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+275	20	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+275	45	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+275	45	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_GET['page'] not unslashed before sanitization. Use wp_unslash() or similar
+275	45	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_GET['page']
+294	20	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+294	45	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+294	45	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_GET['page'] not unslashed before sanitization. Use wp_unslash() or similar
+294	45	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_GET['page']
+391	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+391	44	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+391	44	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_GET['page'] not unslashed before sanitization. Use wp_unslash() or similar
+391	44	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_GET['page']
+430	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+430	37	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+458	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+458	37	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+754	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+779	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+841	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+854	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+858	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+863	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+892	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+893	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+899	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+904	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+906	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+912	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+922	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+929	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+936	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+939	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+940	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+948	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+1057	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+1118	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+1144	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+1309	44	WARNING	WordPress.DB.PreparedSQL.InterpolatedNotPrepared	Use placeholders and $wpdb->prepare(); found interpolated variable {$table_name} at "SHOW CREATE TABLE `{$table_name}`"
+1317	40	WARNING	WordPress.DB.PreparedSQL.InterpolatedNotPrepared	Use placeholders and $wpdb->prepare(); found interpolated variable {$table_name} at "SELECT * FROM `{$table_name}`"
+1956	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+1980	20	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+1980	45	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+1980	45	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_GET['page'] not unslashed before sanitization. Use wp_unslash() or similar
+1980	45	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_GET['page']
+2053	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2104	13	WARNING	WordPress.DB.PreparedSQL.InterpolatedNotPrepared	Use placeholders and $wpdb->prepare(); found interpolated variable $table_name at "SELECT COUNT(*) FROM $table_name WHERE email = %s"
+2124	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2129	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2217	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2258	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+2259	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+2266	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2519	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2544	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2568	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2581	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2585	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2590	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2614	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+2615	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+2620	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2625	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2627	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2633	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2643	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2649	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2655	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2657	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+2658	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+2664	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2732	47	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotValidated	Detected usage of a possibly undefined superglobal array index: $_FILES['backup_file']['error']. Use isset() or empty() to check the index exists before using it
+2736	26	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_FILES['backup_file']
+2754	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2834	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+2942	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3002	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3008	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3013	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3020	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3027	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3029	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3034	21	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3036	21	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3040	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3115	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3125	5	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3126	5	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3127	5	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3131	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+3132	10	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+3139	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3150	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3197	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3198	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3200	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3203	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3205	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3219	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3220	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3221	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3222	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3223	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3224	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3225	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3234	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3237	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3239	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3245	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3246	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3247	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3248	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3254	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3259	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3260	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3263	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3265	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3267	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3269	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3270	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3271	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3272	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3273	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3278	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3282	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3283	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3284	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3287	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3288	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3301	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3381	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3418	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3425	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3427	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3430	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+3915	15	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3915	52	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3916	23	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3916	71	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3917	30	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3917	61	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3918	31	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3918	63	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3919	29	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3919	83	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3947	15	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3947	50	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3948	26	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3948	77	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3949	29	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3949	83	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3966	15	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3966	51	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3967	23	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+3967	71	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+
+FILE: includes/Backup/TimezoneConverter.php
+Line	Column	Type	Code	Message
+204	20	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+183	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+203	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+
+FILE: includes/Backup/ScheduleManager.php
+Line	Column	Type	Code	Message
+40	74	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+59	64	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+74	68	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+97	74	ERROR	WordPress.DateTime.RestrictedFunctions.date_date	date() is affected by runtime timezone changes which can cause date/time to be incorrectly displayed. Use gmdate() instead.
+29	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+30	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+31	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+32	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+33	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+34	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+40	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+45	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+53	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+57	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+58	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+59	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+65	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+69	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+74	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+77	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+95	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+96	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+97	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+156	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+157	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+
+FILE: includes/Backup/CleanupManager.php
+Line	Column	Type	Code	Message
+130	20	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+173	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+
+FILE: includes/Backup/BzenPackager.php
+Line	Column	Type	Code	Message
+210	5	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+323	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+331	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+332	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+333	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+334	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+351	5	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+352	5	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+353	5	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+380	5	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+407	6	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+430	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+435	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+451	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+466	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+473	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+477	24	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+486	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+493	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+514	14	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+523	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+528	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+529	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+535	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+538	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+540	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+549	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+553	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+556	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+559	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fwrite	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fwrite().
+562	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+584	5	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_rmdir	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: rmdir().
+595	6	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+599	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_rmdir	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: rmdir().
+618	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+627	12	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+629	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+637	28	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+641	20	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+645	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+653	27	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+658	25	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+661	22	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+663	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+697	13	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+703	12	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+705	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+710	28	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+714	20	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+717	3	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+726	14	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fopen	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fopen().
+728	16	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fread	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fread().
+729	4	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_fclose	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: fclose().
+778	37	ERROR	WordPress.WP.AlternativeFunctions.file_system_operations_is_writable	File operations should use WP_Filesystem methods instead of direct PHP filesystem calls. Found: is_writable().
+801	5	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+812	4	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+1134	10	ERROR	WordPress.WP.AlternativeFunctions.unlink_unlink	unlink() is discouraged. Use wp_delete_file() to delete a file.
+69	4	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+70	4	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+349	36	WARNING	WordPress.DB.PreparedSQL.InterpolatedNotPrepared	Use placeholders and $wpdb->prepare(); found interpolated variable {$table_name} at "SHOW CREATE TABLE `{$table_name}`"
+376	55	WARNING	WordPress.DB.PreparedSQL.InterpolatedNotPrepared	Use placeholders and $wpdb->prepare(); found interpolated variable {$table_name} at "SELECT COUNT(*) FROM `{$table_name}`"
+385	22	WARNING	WordPress.DB.PreparedSQL.InterpolatedNotPrepared	Use placeholders and $wpdb->prepare(); found interpolated variable {$table_name} at "SELECT * FROM `{$table_name}` LIMIT %d OFFSET %d"
+929	6	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function set_time_limit() is discouraged
+930	6	WARNING	Squiz.PHP.DiscouragedFunctions.Discouraged	The use of function ini_set() is discouraged
+
+FILE: templates/available-backups.php
+Line	Column	Type	Code	Message
+86	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+86	56	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+87	27	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+87	75	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+88	34	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+88	65	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+89	35	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+89	67	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+90	33	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+90	87	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+118	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+118	54	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+119	30	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+119	81	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+120	33	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+120	87	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+137	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+137	55	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+138	27	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+138	75	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+
+FILE: includes/Backup/EmailNotifier.php
+Line	Column	Type	Code	Message
+30	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+31	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+32	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+33	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+36	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+39	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+49	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+52	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+59	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+63	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+66	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+133	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+134	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+135	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+136	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+137	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+141	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+144	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+150	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+151	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+243	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+252	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+
+FILE: includes/Backup/ScheduleController.php
+Line	Column	Type	Code	Message
+45	75	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['frequency'] not unslashed before sanitization. Use wp_unslash() or similar
+46	65	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['time'] not unslashed before sanitization. Use wp_unslash() or similar
+53	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+54	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+55	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+56	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+68	73	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['email_address'] not unslashed before sanitization. Use wp_unslash() or similar
+84	80	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['schedule_format'] not unslashed before sanitization. Use wp_unslash() or similar
+126	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+168	58	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['email'] not unslashed before sanitization. Use wp_unslash() or similar
+
+FILE: includes/Admin/Feedback.php
+Line	Column	Type	Code	Message
+54	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+54	44	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+54	44	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_GET['page'] not unslashed before sanitization. Use wp_unslash() or similar
+54	44	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_GET['page']
+138	19	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+138	44	WARNING	WordPress.Security.NonceVerification.Recommended	Processing form data without nonce verification.
+138	44	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_GET['page'] not unslashed before sanitization. Use wp_unslash() or similar
+138	44	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_GET['page']
+156	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+157	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+157	55	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_print_r	print_r() found. Debug code should not normally be used in production.
+157	63	WARNING	WordPress.Security.NonceVerification.Missing	Processing form data without nonce verification.
+160	59	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['nonce'] not unslashed before sanitization. Use wp_unslash() or similar
+160	59	WARNING	WordPress.Security.ValidatedSanitizedInput.InputNotSanitized	Detected usage of a non-sanitized input variable: $_POST['nonce']
+161	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+165	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+169	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+173	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+176	61	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['type'] not unslashed before sanitization. Use wp_unslash() or similar
+178	71	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['message'] not unslashed before sanitization. Use wp_unslash() or similar
+179	73	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['idea_title'] not unslashed before sanitization. Use wp_unslash() or similar
+180	89	WARNING	WordPress.Security.ValidatedSanitizedInput.MissingUnslash	$_POST['idea_description'] not unslashed before sanitization. Use wp_unslash() or similar
+237	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+279	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+286	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+298	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+299	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+300	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+301	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+302	9	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+308	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+310	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+311	13	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+316	17	WARNING	WordPress.PHP.DevelopmentFunctions.error_log_error_log	error_log() found. Debug code should not normally be used in production.
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+972	26	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+972	26	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1026	9	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1026	9	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1033	9	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1043	9	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1103	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1103	13	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1130	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1130	13	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1155	9	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1155	9	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1298	19	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1298	19	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1309	29	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1309	29	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1309	44	WARNING	WordPress.DB.DirectDatabaseQuery.SchemaChange	Attempting a database schema change is discouraged.
+1317	21	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1317	21	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1427	27	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1427	27	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+1463	27	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+1463	27	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+2103	21	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2103	21	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+2113	19	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2687	26	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2687	26	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+2806	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2806	13	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+2812	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2822	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2933	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2933	13	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+2952	13	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+2952	13	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+3538	19	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+3538	19	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+
+FILE: includes/Backup/BzenPackager.php
+Line	Column	Type	Code	Message
+337	19	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+337	19	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+349	29	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+349	29	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+349	45	WARNING	WordPress.DB.DirectDatabaseQuery.SchemaChange	Attempting a database schema change is discouraged.
+376	34	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+376	34	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+384	25	WARNING	WordPress.DB.DirectDatabaseQuery.DirectQuery	Use of a direct database call is discouraged.
+384	25	WARNING	WordPress.DB.DirectDatabaseQuery.NoCaching	Direct database call without caching detected. Consider using wp_cache_get() / wp_cache_set() or wp_cache_delete().
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+404	13	WARNING	WordPress.WP.EnqueuedResourceParameters.MissingVersion	Resource version not set in call to wp_enqueue_style(). This means new versions of the style may not always be loaded due to browser caching.
+
+FILE: readme.txt
+Line	Column	Type	Code	Message
+0	0	ERROR	outdated_tested_upto_header	Tested up to: 6.4 < 6.9.
+The "Tested up to" value in your plugin is not set to the current version of WordPress. This means your plugin will not show up in searches, as we require plugins to be compatible and documented as tested up to the most recent version of WordPress.
+Learn more (opens in a new tab)
+0	0	WARNING	mismatched_plugin_name	Plugin name "BackupZen" is different from the name declared in plugin header "backupZen".
+Learn more (opens in a new tab)
+0	0	WARNING	readme_invalid_contributors	The "Contributors" header in the readme file must be a comma-separated list of WordPress.org-formatted usernames.
+
+FILE: templates/available-backups.php
+Line	Column	Type	Code	Message
+14	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$scanner".
+15	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$backups".
+16	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$total_size".
+31	9	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$pro_manager".
+43	17	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$backup_pro_features".
+50	50	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$feature_id".
+51	21	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$feature".
+87	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$file".
+88	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$files_count".
+89	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$tables_count".
+90	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$pre_backup".
+119	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$message".
+120	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$pre_backup".
+138	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$file".
+182	48	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$index".
+182	58	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$backup".
+184	25	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$type_label".
+185	25	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$type_icon".
+188	25	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$badge_class".
+191	33	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$badge_class".
+195	33	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$badge_class".
+198	33	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$badge_class".
+203	25	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$download_url".
+
+FILE: templates/dashboard.php
+Line	Column	Type	Code	Message
+13	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$stats".
+161	71	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$backup".
+201	70	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$count".
+229	5	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$pro_manager".
+266	13	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$featured_pro_features".
+275	48	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$feature_id".
+276	17	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$feature".
+297	91	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$benefit".
+
+FILE: templates/scheduled-backups-new.php
+Line	Column	Type	Code	Message
+12	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_enabled".
+13	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_frequency".
+14	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_time".
+15	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$email_notifications".
+16	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$email_address".
+17	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$email_on_failure".
+18	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$auto_cleanup".
+19	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$cleanup_keep".
+20	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_format".
+21	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_files".
+22	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_database".
+25	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$schedule_manager".
+29	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$tz_info".
+32	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$backup_history".
+33	1	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$recent_history".
+65	25	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$next_run_12hr".
+133	33	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$pro_manager".
+134	33	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$is_pro".
+207	37	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$time_12hr".
+218	37	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$quick_times".
+228	62	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$time_24".
+228	74	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$time_label".
+229	41	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$is_selected".
+434	59	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$entry".
+435	29	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$local_time".
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+813	42	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound	Hook names invoked by a theme/plugin should start with the theme/plugin prefix. Found: "https_local_ssl_verify".
+
+FILE: views/feedback-modal.php
+Line	Column	Type	Code	Message
+86	36	ERROR	WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound	Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: "$i".
+
+FILE: backupZen.php
+Line	Column	Type	Code	Message
+1463	34	ERROR	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $statement used in $wpdb->query($statement)\n$statement assigned unsafely at line 1450:\n $statement = trim($statement)
+1309	36	WARNING	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $table_name used in $wpdb->get_row("SHOW CREATE TABLE `{$table_name}`")\n$table_name assigned unsafely at line 1301:\n $table_name = $table[0]
+1317	28	WARNING	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $table_name used in $wpdb->get_results("SELECT * FROM `{$table_name}`")\n$table_name assigned unsafely at line 1301:\n $table_name = $table[0]
+2103	28	WARNING	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $table_name used in $wpdb->get_var($wpdb->prepare(\r\n "SELECT COUNT(*) FROM $table_name WHERE email = %s",\r\n $email\r\n ))\n$table_name assigned unsafely at line 2100:\n $table_name = $wpdb->prefix . 'backupzen_early_access'\n$existing assigned unsafely at line 2103:\n $existing = $wpdb->get_var($wpdb->prepare(\r\n "SELECT COUNT(*) FROM $table_name WHERE email = %s",\r\n $email\r\n ))\n$email assigned unsafely at line 2088:\n $email = sanitize_email(wp_unslash($_POST['email']))\n$_POST['email'] used without escaping.
+
+FILE: includes/Backup/BzenPackager.php
+Line	Column	Type	Code	Message
+349	27	WARNING	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $table_name used in $wpdb->get_row("SHOW CREATE TABLE `{$table_name}`")\n$table_name assigned unsafely at line 345:\n $table_name = $table[0]
+376	32	WARNING	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $table_name used in $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM `{$table_name}`"))\n$table_name assigned unsafely at line 367:\n $table_name = $table[0]
+384	20	WARNING	PluginCheck.Security.DirectDB.UnescapedDBParameter	Unescaped parameter $table_name used in $wpdb->get_results($wpdb->prepare( "SELECT * FROM `{$table_name}` LIMIT %d OFFSET %d", $limit, $offset ))\n$table_name assigned unsafely at line 367:\n $table_name = $table[0]

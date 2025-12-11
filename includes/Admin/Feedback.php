@@ -51,7 +51,7 @@ class BackupZen_Feedback
         }
 
         // Check GET parameter as fallback.
-        if (isset($_GET['page']) && strpos($_GET['page'], 'backupzen') === 0) {
+        if (isset($_GET['page']) && strpos(sanitize_text_field(wp_unslash($_GET['page'])), 'backupzen') === 0) {
             return true;
         }
 
@@ -135,7 +135,7 @@ class BackupZen_Feedback
         }
 
         // Method 2: Check GET parameter
-        if (isset($_GET['page']) && strpos($_GET['page'], 'backupzen') === 0) {
+        if (isset($_GET['page']) && strpos(sanitize_text_field(wp_unslash($_GET['page'])), 'backupzen') === 0) {
             $is_backupzen_page = true;
         }
 
@@ -157,7 +157,7 @@ class BackupZen_Feedback
         error_log('BackupZen Feedback: POST data: ' . print_r($_POST, true));
 
         // Verify nonce.
-        if (! isset($_POST['nonce']) || ! wp_verify_nonce($_POST['nonce'], 'backupzen_feedback_nonce')) {
+        if (! isset($_POST['nonce']) || ! wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['nonce'])), 'backupzen_feedback_nonce')) {
             error_log('BackupZen Feedback: Nonce verification failed');
             wp_send_json_error(array('message' => __('Security check failed.', 'backupzen')));
         }
@@ -173,11 +173,11 @@ class BackupZen_Feedback
         error_log('BackupZen Feedback: Permissions verified');
 
         // Sanitize input.
-        $type = isset($_POST['type']) ? sanitize_text_field($_POST['type']) : '';
+        $type = isset($_POST['type']) ? sanitize_text_field(wp_unslash($_POST['type'])) : '';
         $rating = isset($_POST['rating']) ? absint($_POST['rating']) : 0;
-        $message = isset($_POST['message']) ? sanitize_textarea_field($_POST['message']) : '';
-        $idea_title = isset($_POST['idea_title']) ? sanitize_text_field($_POST['idea_title']) : '';
-        $idea_description = isset($_POST['idea_description']) ? sanitize_textarea_field($_POST['idea_description']) : '';
+        $message = isset($_POST['message']) ? sanitize_textarea_field(wp_unslash($_POST['message'])) : '';
+        $idea_title = isset($_POST['idea_title']) ? sanitize_text_field(wp_unslash($_POST['idea_title'])) : '';
+        $idea_description = isset($_POST['idea_description']) ? sanitize_textarea_field(wp_unslash($_POST['idea_description'])) : '';
 
         // Get current user information.
         $current_user = wp_get_current_user();
@@ -234,7 +234,9 @@ class BackupZen_Feedback
             ));
         } else {
             // Log the failure for debugging.
-            error_log('BackupZen Feedback: Email sending failed for ' . $type . ' submission from ' . $email);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Feedback: Email sending failed for ' . $type . ' submission from ' . $email);
+            }
             
             wp_send_json_error(array(
                 'message' => __('Failed to send email. Please check your WordPress email configuration or try again later.', 'backupzen')
@@ -276,14 +278,18 @@ class BackupZen_Feedback
         ob_start();
         $template_path = $this->get_plugin_dir() . '/includes/Templates/email-feedback.php';
         if (! file_exists($template_path)) {
-            error_log('BackupZen Feedback: Email template not found at ' . $template_path);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Feedback: Email template not found at ' . $template_path);
+            }
             return false;
         }
         include $template_path;
         $email_body = ob_get_clean();
 
         if (empty($email_body)) {
-            error_log('BackupZen Feedback: Email template produced empty output');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Feedback: Email template produced empty output');
+            }
             return false;
         }
 

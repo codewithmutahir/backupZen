@@ -11,8 +11,11 @@
 if (!defined('ABSPATH')) exit;
 
 // Get all backups
+// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variables
 $scanner = new \BackupZen\Backup\BackupScanner($this->get_backup_dir_path());
+// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variables
 $backups = $scanner->get_backups();
+// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variables
 $total_size = array_sum(array_column($backups, 'size'));
 ?>
 
@@ -28,6 +31,7 @@ $total_size = array_sum(array_column($backups, 'size'));
     <div class="backupzen-container">
         <?php
         // PRO Features Showcase for Backups
+        // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variable
         $pro_manager = \BackupZen\Premium\ProFeaturesManager::get_instance();
         if (!$pro_manager->is_pro() && !empty($backups)) :
         ?>
@@ -40,6 +44,7 @@ $total_size = array_sum(array_column($backups, 'size'));
             
             <div class="backupzen-pro-features-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
                 <?php
+                // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variable
                 $backup_pro_features = [
                     'partial_restore',
                     'backup_verification',
@@ -48,6 +53,7 @@ $total_size = array_sum(array_column($backups, 'size'));
                 ];
                 
                 foreach ($backup_pro_features as $feature_id) {
+                    // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variable
                     $feature = $pro_manager->get_feature($feature_id);
                     if ($feature) :
                 ?>
@@ -62,7 +68,10 @@ $total_size = array_sum(array_column($backups, 'size'));
                             </div>
                             <h3 class="pro-feature-title" style="font-size: 16px;">
                                 <?php echo esc_html($feature['title']); ?>
-                                <?php echo $pro_manager->render_pro_badge(); ?>
+                                <?php
+                                // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped - render_pro_badge() already escapes output
+                                echo $pro_manager->render_pro_badge();
+                                ?>
                             </h3>
                             <p class="pro-feature-description" style="font-size: 13px; margin-bottom: 12px;">
                                 <?php echo esc_html($feature['description']); ?>
@@ -84,7 +93,9 @@ $total_size = array_sum(array_column($backups, 'size'));
         <?php
         // Show restore success notice
         if (isset($_GET['restore_success']) && '1' === $_GET['restore_success']) {
+            // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variable
             $file = isset($_GET['file']) ? sanitize_text_field(wp_unslash($_GET['file'])) : '';
+            // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variable
             $files_count = isset($_GET['files_count']) ? absint($_GET['files_count']) : 0;
             $tables_count = isset($_GET['tables_count']) ? absint($_GET['tables_count']) : 0;
             $pre_backup = isset($_GET['pre_backup']) ? sanitize_text_field(wp_unslash($_GET['pre_backup'])) : '';
@@ -92,14 +103,19 @@ $total_size = array_sum(array_column($backups, 'size'));
             <div class="notice notice-success is-dismissible">
                 <p>
                     <strong><?php echo esc_html__('Restore completed successfully!', 'backupzen'); ?></strong><br>
-                    <?php echo esc_html(sprintf(__('Your site has been restored from backup: %s', 'backupzen'), $file)); ?>
+                    <?php
+                    /* translators: %s: Backup filename */
+                    echo esc_html(sprintf(__('Your site has been restored from backup: %s', 'backupzen'), $file));
+                    ?>
                     <?php if ($files_count > 0 || $tables_count > 0) : ?>
                         <br>
                         <?php
                         if ($files_count > 0) {
+                            /* translators: %d: Number of files restored */
                             echo esc_html(sprintf(_n('%d file restored.', '%d files restored.', $files_count, 'backupzen'), $files_count));
                         }
                         if ($tables_count > 0) {
+                            /* translators: %d: Number of database tables restored */
                             echo ' ' . esc_html(sprintf(_n('%d database table restored.', '%d database tables restored.', $tables_count, 'backupzen'), $tables_count));
                         }
                         ?>
@@ -140,7 +156,10 @@ $total_size = array_sum(array_column($backups, 'size'));
             <div class="notice notice-info is-dismissible">
                 <p>
                     <strong><?php echo esc_html__('Restore functionality coming soon!', 'backupzen'); ?></strong><br>
-                    <?php echo esc_html(sprintf(__('Restore logic for "%s" is not yet implemented.', 'backupzen'), $file)); ?>
+                    <?php
+                    /* translators: %s: Backup filename */
+                    echo esc_html(sprintf(__('Restore logic for "%s" is not yet implemented.', 'backupzen'), $file));
+                    ?>
                 </p>
             </div>
         <?php
@@ -154,7 +173,10 @@ $total_size = array_sum(array_column($backups, 'size'));
                 <div class="backupzen-cards-stats">
                     <span class="stat-badge">
                         <span class="dashicons dashicons-backup"></span>
-                        <?php echo esc_html(sprintf(_n('%d Backup', '%d Backups', count($backups), 'backupzen'), count($backups))); ?>
+                        <?php
+                        /* translators: %d: Number of backups */
+                        echo esc_html(sprintf(_n('%d Backup', '%d Backups', count($backups), 'backupzen'), count($backups)));
+                        ?>
                     </span>
                     <span class="stat-badge">
                         <span class="dashicons dashicons-database"></span>

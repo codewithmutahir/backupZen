@@ -272,7 +272,7 @@ class BackupZen
     public function render_premium_modal()
     {
         // Only render on backupZen pages
-        if (!isset($_GET['page']) || strpos($_GET['page'], 'backupzen') !== 0) {
+        if (!isset($_GET['page']) || strpos(sanitize_text_field(wp_unslash($_GET['page'])), 'backupzen') !== 0) {
             return;
         }
         
@@ -291,7 +291,7 @@ class BackupZen
     public function render_developer_footer()
     {
         // Only render on backupZen pages
-        if (!isset($_GET['page']) || strpos($_GET['page'], 'backupzen') !== 0) {
+        if (!isset($_GET['page']) || strpos(sanitize_text_field(wp_unslash($_GET['page'])), 'backupzen') !== 0) {
             return;
         }
         ?>
@@ -388,7 +388,7 @@ class BackupZen
             $is_our_page = true;
         }
         
-        if (isset($_GET['page']) && strpos($_GET['page'], 'backupzen') === 0) {
+        if (isset($_GET['page']) && strpos(sanitize_text_field(wp_unslash($_GET['page'])), 'backupzen') === 0) {
             $is_our_page = true;
         }
         
@@ -401,7 +401,7 @@ class BackupZen
             'backupzen-poppins-font',
             'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap',
             array(),
-            null
+            '1.0.0' // External resource version
         );
         
         // Dashicons
@@ -427,7 +427,7 @@ class BackupZen
         );
         
         // Enqueue schedule page CSS
-        if (isset($_GET['page']) && $_GET['page'] === 'backupzen-scheduled') {
+        if (isset($_GET['page']) && sanitize_text_field(wp_unslash($_GET['page'])) === 'backupzen-scheduled') {
             wp_enqueue_style(
                 'backupzen-schedule',
                 plugins_url('assets/css/schedule.css', __FILE__),
@@ -455,7 +455,7 @@ class BackupZen
         );
         
         // Enqueue scheduled backups JS on scheduled page
-        if (isset($_GET['page']) && $_GET['page'] === 'backupzen-scheduled') {
+        if (isset($_GET['page']) && sanitize_text_field(wp_unslash($_GET['page'])) === 'backupzen-scheduled') {
             wp_enqueue_script(
                 'backupzen-schedule',
                 plugins_url('assets/js/schedule.js', __FILE__),
@@ -547,7 +547,10 @@ class BackupZen
                     add_action('admin_notices', function () use ($backup_format) {
                         ?>
                         <div class="notice notice-error is-dismissible">
-                            <p><?php echo esc_html(sprintf(__('Unknown backup format: "%s"', 'backupzen'), $backup_format)); ?></p>
+                            <p><?php
+                            /* translators: %s: Backup format name */
+                            echo esc_html(sprintf(__('Unknown backup format: "%s"', 'backupzen'), $backup_format));
+                            ?></p>
                         </div>
                         <?php
                     });
@@ -618,7 +621,10 @@ class BackupZen
             <div class="notice notice-success is-dismissible">
                 <p>
                     <strong><?php echo esc_html__('Backup created successfully!', 'backupzen'); ?></strong><br>
-                    <?php echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename)); ?>
+                    <?php
+                    /* translators: %s: Backup filename */
+                    echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename));
+                    ?>
                 </p>
             </div>
             <?php
@@ -659,7 +665,10 @@ class BackupZen
                 <div class="notice notice-success is-dismissible">
                     <p>
                         <strong><?php echo esc_html__('SQL backup created successfully!', 'backupzen'); ?></strong><br>
-                        <?php echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename)); ?>
+                        <?php
+                        /* translators: %s: Backup filename */
+                        echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename));
+                        ?>
                     </p>
                 </div>
                 <?php
@@ -715,7 +724,10 @@ class BackupZen
             <div class="notice notice-success is-dismissible">
                 <p>
                     <strong><?php echo esc_html__('SQL.GZ backup created successfully!', 'backupzen'); ?></strong><br>
-                    <?php echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename)); ?>
+                    <?php
+                    /* translators: %s: Backup filename */
+                    echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename));
+                    ?>
                 </p>
             </div>
             <?php
@@ -745,13 +757,16 @@ class BackupZen
     
         // Only support BZEN format for now
         if ('bzen' !== $backup_format) {
+            /* translators: %s: Backup format name */
             wp_send_json_error(array('message' => sprintf(__('Backup format "%s" is not yet implemented.', 'backupzen'), $backup_format)));
         }
     
         // Create unique session ID
         $session_id = uniqid('backup_', true);
         
-        error_log('BackupZen: Creating backup with session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Creating backup with session ' . $session_id);
+        }
     
         // Store backup parameters - CRITICAL: Set transient timeout to 10 minutes
         set_transient('backupzen_params_' . $session_id, array(
@@ -776,7 +791,9 @@ class BackupZen
             'nonce' => wp_create_nonce('backupzen_nonce'),
         ), admin_url('admin-ajax.php'));
     
-        error_log('BackupZen: Spawn URL: ' . $spawn_url);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Spawn URL: ' . $spawn_url);
+        }
     
         // Return immediately with spawn URL for client-side spawning
         wp_send_json_success(array(
@@ -810,6 +827,7 @@ class BackupZen
         wp_remote_post(admin_url('admin-ajax.php'), array(
             'blocking' => false,
             'timeout' => 0.01,
+            // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Core WordPress filter
             'sslverify' => apply_filters('https_local_ssl_verify', false),
             'body' => array(
                 'action' => 'backupzen_run_backup',
@@ -838,7 +856,9 @@ class BackupZen
         }
         
         if (empty($session_id)) {
-            error_log('BackupZen Run: No session ID provided');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Run: No session ID provided');
+            }
             die('No session ID'); // Don't use wp_send_json_error for iframe spawning
         }
     
@@ -851,16 +871,22 @@ class BackupZen
         }
         
         if (!wp_verify_nonce($nonce, 'backupzen_nonce')) {
-            error_log('BackupZen Run: Nonce verification failed');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Run: Nonce verification failed');
+            }
             die('Invalid nonce'); // Don't use wp_send_json_error for iframe spawning
         }
     
-        error_log('BackupZen Run: Starting for session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Run: Starting for session ' . $session_id);
+        }
     
         // Get parameters
         $params = get_transient('backupzen_params_' . $session_id);
         if (false === $params) {
-            error_log('BackupZen Run: Parameters not found for session ' . $session_id);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Run: Parameters not found for session ' . $session_id);
+            }
             die('Parameters not found'); // Don't use wp_send_json_error for iframe spawning
         }
     
@@ -896,20 +922,28 @@ class BackupZen
         // Small delay to ensure connection is closed
         sleep(1);
     
-        error_log('BackupZen Run: Connection closed, starting backup process');
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Run: Connection closed, starting backup process');
+        }
     
         // Run backup
         try {
             $this->create_backup_with_progress($backup_files, $backup_database, $session_id);
-            error_log('BackupZen Run: Backup completed successfully for session ' . $session_id);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Run: Backup completed successfully for session ' . $session_id);
+            }
         } catch (Exception $e) {
-            error_log('BackupZen Run: Exception during backup: ' . $e->getMessage());
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Run: Exception during backup: ' . $e->getMessage());
+            }
         }
     
         // Clean up
         delete_transient('backupzen_params_' . $session_id);
     
-        error_log('BackupZen Run: All done for session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Run: All done for session ' . $session_id);
+        }
         exit;
     }
     	
@@ -919,21 +953,27 @@ class BackupZen
     public function cron_run_backup($session_id)
     {
         if (empty($session_id)) {
-            error_log('BackupZen Cron: No session ID provided');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Cron: No session ID provided');
+            }
             return;
         }
     
         // Get backup parameters
         $params = get_transient('backupzen_params_' . $session_id);
         if (false === $params) {
-            error_log('BackupZen Cron: Backup parameters not found for session ' . $session_id);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Cron: Backup parameters not found for session ' . $session_id);
+            }
             return;
         }
     
         $backup_files = isset($params['backup_files']) ? intval($params['backup_files']) : 0;
         $backup_database = isset($params['backup_database']) ? intval($params['backup_database']) : 0;
     
-        error_log('BackupZen Cron: Starting backup with session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Cron: Starting backup with session ' . $session_id);
+        }
     
         // Increase limits
         @set_time_limit(0);
@@ -945,7 +985,9 @@ class BackupZen
         // Clean up
         delete_transient('backupzen_params_' . $session_id);
         
-        error_log('BackupZen Cron: Backup completed for session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Cron: Backup completed for session ' . $session_id);
+        }
     }
     
     
@@ -1054,7 +1096,9 @@ class BackupZen
         $wpdb->flush();
         
         // Log progress for debugging
-        error_log(sprintf('BackupZen Progress: %s - %d%%', $step, $progress));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log(sprintf('BackupZen Progress: %s - %d%%', $step, $progress));
+        }
     };
 
     try {
@@ -1115,7 +1159,9 @@ class BackupZen
                 ? $result['message'] 
                 : __('Unknown error occurred during backup creation', 'backupzen');
             
-            error_log('BackupZen Error: ' . $error_message);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Error: ' . $error_message);
+            }
             
             // Set error status
             global $wpdb;
@@ -1141,7 +1187,9 @@ class BackupZen
     } catch (Exception $e) {
         $error_message = $e->getMessage();
         
-        error_log('BackupZen Exception: ' . $error_message);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Exception: ' . $error_message);
+        }
         
         // Set error status
         global $wpdb;
@@ -1306,6 +1354,7 @@ class BackupZen
             }
 
             // Get table structure.
+            // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Table name cannot be prepared, but is validated from $wpdb->prefix
             $create_table = $wpdb->get_row("SHOW CREATE TABLE `{$table_name}`", ARRAY_N);
             if ($create_table) {
                 fwrite($handle, "\n-- Table structure for `{$table_name}`\n");
@@ -1314,6 +1363,7 @@ class BackupZen
             }
 
             // Get table data.
+            // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Table name cannot be prepared, but is validated from $wpdb->prefix
             $rows = $wpdb->get_results("SELECT * FROM `{$table_name}`", ARRAY_A);
             if (! empty($rows)) {
                 fwrite($handle, "-- Data for table `{$table_name}`\n");
@@ -1382,7 +1432,8 @@ class BackupZen
             if (preg_match($pattern, $sql_content)) {
                 return array(
                     'success' => false,
-                    'message' => __('SQL file contains potentially dangerous statements. Pattern matched: ' . $pattern, 'backupzen'),
+                    /* translators: %s: Pattern that matched dangerous SQL statement */
+                    'message' => sprintf(__('SQL file contains potentially dangerous statements. Pattern matched: %s', 'backupzen'), $pattern),
                 );
             }
         }
@@ -1460,6 +1511,7 @@ class BackupZen
                 }
     
                 // Execute statement
+                // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared -- SQL statements from validated backup file, cannot be prepared
                 $result = $wpdb->query($statement);
                 if (false === $result && !empty($wpdb->last_error)) {
                     $errors[] = $wpdb->last_error;
@@ -1489,6 +1541,7 @@ class BackupZen
     
         return array(
             'success' => true,
+            /* translators: %d: Number of database tables processed */
             'message' => sprintf(__('Database restored successfully. %d tables processed.', 'backupzen'), $tables_restored),
         );
     }
@@ -1601,9 +1654,11 @@ class BackupZen
                     if ($wp_filesystem->put_contents($destination, $file_content, FS_CHMOD_FILE)) {
                         $restored_count++;
                     } else {
+                        /* translators: %s: File path */
                         $errors[] = sprintf(__('Failed to copy: %s', 'backupzen'), $relative_path);
                     }
                 } else {
+                    /* translators: %s: File path */
                     $errors[] = sprintf(__('Failed to read: %s', 'backupzen'), $relative_path);
                 }
             }
@@ -1621,6 +1676,7 @@ class BackupZen
 
         return array(
             'success' => true,
+            /* translators: %d: Number of files restored */
             'message' => sprintf(__('Restored %d files successfully.', 'backupzen'), $restored_count),
             'restored_count' => $restored_count,
         );
@@ -1915,9 +1971,18 @@ class BackupZen
                 <div class="notice notice-success is-dismissible">
                     <p>
                         <strong><?php echo esc_html__('Backup created successfully!', 'backupzen'); ?></strong><br>
-                        <?php echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename)); ?><br>
-                        <?php echo esc_html(sprintf(__('Size: %s', 'backupzen'), size_format($result['file_size']))); ?><br>
-                        <?php echo esc_html(sprintf(__('Checksum: %s', 'backupzen'), substr($result['checksum'], 0, 16) . '...')); ?>
+                        <?php
+                        /* translators: %s: Backup filename */
+                        echo esc_html(sprintf(__('File: %s', 'backupzen'), $filename));
+                        ?><br>
+                        <?php
+                        /* translators: %s: File size */
+                        echo esc_html(sprintf(__('Size: %s', 'backupzen'), size_format($result['file_size'])));
+                        ?><br>
+                        <?php
+                        /* translators: %s: Checksum value */
+                        echo esc_html(sprintf(__('Checksum: %s', 'backupzen'), substr($result['checksum'], 0, 16) . '...'));
+                        ?>
                     </p>
                 </div>
             <?php
@@ -1953,7 +2018,9 @@ class BackupZen
             // Only update if it was set to true (old default) or not set at all
             if ($email_on_failure === true || $email_on_failure === null) {
                 update_option('backupzen_email_on_failure', false);
-                error_log('BackupZen: ✓ Email settings migrated! You will now receive emails for ALL backups (not just failures)');
+                if (defined('WP_DEBUG') && WP_DEBUG) {
+                    error_log('BackupZen: ✓ Email settings migrated! You will now receive emails for ALL backups (not just failures)');
+                }
                 
                 // Set a transient to show admin notice
                 set_transient('backupzen_email_migration_notice', true, 60);
@@ -1977,7 +2044,7 @@ class BackupZen
     public function show_migration_notice()
     {
         // Only show on BackupZen pages
-        if (!isset($_GET['page']) || strpos($_GET['page'], 'backupzen') === false) {
+        if (!isset($_GET['page']) || strpos(sanitize_text_field(wp_unslash($_GET['page'])), 'backupzen') === false) {
             return;
         }
         
@@ -2050,7 +2117,9 @@ class BackupZen
         // Attempt to delete the file
         if (@unlink($filepath)) {
             // Log the deletion
-            error_log(sprintf('BackupZen: Backup file deleted - %s by user %s', $filename, wp_get_current_user()->user_login));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log(sprintf('BackupZen: Backup file deleted - %s by user %s', $filename, wp_get_current_user()->user_login));
+            }
             
             wp_send_json_success(array(
                 'message' => __('Backup deleted successfully.', 'backupzen'),
@@ -2100,6 +2169,7 @@ class BackupZen
         $table_name = $wpdb->prefix . 'backupzen_early_access';
         
         // Check if email already exists
+        // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Table name cannot be prepared, but is safely constructed from $wpdb->prefix
         $existing = $wpdb->get_var($wpdb->prepare(
             "SELECT COUNT(*) FROM $table_name WHERE email = %s",
             $email
@@ -2121,12 +2191,16 @@ class BackupZen
         );
         
         if ($result === false) {
-            error_log('BackupZen: Failed to save early access email - ' . $wpdb->last_error);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: Failed to save early access email - ' . $wpdb->last_error);
+            }
             wp_send_json_error(array('message' => __('Failed to save email. Please try again.', 'backupzen')));
         }
         
         // Log success
-        error_log(sprintf('BackupZen: Early access email registered - %s', $email));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log(sprintf('BackupZen: Early access email registered - %s', $email));
+        }
         
         // Send success response
         wp_send_json_success(array(
@@ -2214,21 +2288,25 @@ class BackupZen
     
         // Log bulk deletion
         if (!empty($deleted)) {
-            error_log(sprintf(
-                'BackupZen: Bulk delete - %d files deleted by user %s: %s',
-                count($deleted),
-                wp_get_current_user()->user_login,
-                implode(', ', $deleted)
-            ));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log(sprintf(
+                    'BackupZen: Bulk delete - %d files deleted by user %s: %s',
+                    count($deleted),
+                    wp_get_current_user()->user_login,
+                    implode(', ', $deleted)
+                ));
+            }
         }
     
+        /* translators: 1: Number of backups deleted, 2: Total number of backups */
         $message = sprintf(
-            __('Deleted %d of %d backup(s).', 'backupzen'),
+            __('Deleted %1$d of %2$d backup(s).', 'backupzen'),
             count($deleted),
             count($filenames)
         );
     
         if (!empty($failed)) {
+            /* translators: %s: Comma-separated list of failed items */
             $message .= ' ' . sprintf(__('Failed: %s', 'backupzen'), implode(', ', $failed));
         }
     
@@ -2263,7 +2341,9 @@ class BackupZen
         $backup_database = isset($_POST['backup_database']) ? intval($_POST['backup_database']) : 0;
         $backup_format = isset($_POST['backup_format']) ? sanitize_text_field(wp_unslash($_POST['backup_format'])) : 'zip';
     
-        error_log('BackupZen: Creating traditional backup - Format: ' . $backup_format);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Creating traditional backup - Format: ' . $backup_format);
+        }
     
         // Handle based on format
         $result = array('success' => false, 'message' => 'Unknown format');
@@ -2356,6 +2436,7 @@ class BackupZen
         if (file_exists($file_path)) {
             return array(
                 'success' => true,
+                /* translators: %s: Backup filename */
                 'message' => sprintf(__('ZIP backup created: %s', 'backupzen'), $filename),
                 'filename' => $filename,
                 'size' => filesize($file_path)
@@ -2394,6 +2475,7 @@ class BackupZen
         if ($result['success'] && file_exists($file_path)) {
             return array(
                 'success' => true,
+                /* translators: %s: Backup filename */
                 'message' => sprintf(__('SQL backup created: %s', 'backupzen'), $filename),
                 'filename' => $filename,
                 'size' => filesize($file_path)
@@ -2463,6 +2545,7 @@ class BackupZen
         if (file_exists($file_path)) {
             return array(
                 'success' => true,
+                /* translators: %s: Backup filename */
                 'message' => sprintf(__('SQL.GZ backup created: %s', 'backupzen'), $filename),
                 'filename' => $filename,
                 'size' => filesize($file_path)
@@ -2516,7 +2599,9 @@ class BackupZen
         // Create unique session ID
         $session_id = uniqid('restore_', true);
         
-        error_log('BackupZen: Creating restore session ' . $session_id . ' for file: ' . $filename);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Creating restore session ' . $session_id . ' for file: ' . $filename);
+        }
     
         // Store restore parameters
         set_transient('backupzen_restore_params_' . $session_id, array(
@@ -2541,7 +2626,9 @@ class BackupZen
             'nonce' => wp_create_nonce('backupzen_nonce'),
         ), admin_url('admin-ajax.php'));
     
-        error_log('BackupZen: Restore spawn URL: ' . $spawn_url);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Restore spawn URL: ' . $spawn_url);
+        }
     
         // Return spawn URL for client-side spawning
         wp_send_json_success(array(
@@ -2565,7 +2652,9 @@ class BackupZen
         }
         
         if (empty($session_id)) {
-            error_log('BackupZen Restore: No session ID provided');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Restore: No session ID provided');
+            }
             die('No session ID');
         }
     
@@ -2578,16 +2667,22 @@ class BackupZen
         }
         
         if (!wp_verify_nonce($nonce, 'backupzen_nonce')) {
-            error_log('BackupZen Restore: Nonce verification failed');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Restore: Nonce verification failed');
+            }
             die('Invalid nonce');
         }
     
-        error_log('BackupZen Restore: Starting for session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Restore: Starting for session ' . $session_id);
+        }
     
         // Get parameters
         $params = get_transient('backupzen_restore_params_' . $session_id);
         if (false === $params) {
-            error_log('BackupZen Restore: Parameters not found for session ' . $session_id);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Restore: Parameters not found for session ' . $session_id);
+            }
             die('Parameters not found');
         }
     
@@ -2617,20 +2712,28 @@ class BackupZen
     
         sleep(1);
     
-        error_log('BackupZen Restore: Connection closed, starting restore process');
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Restore: Connection closed, starting restore process');
+        }
     
         // Run restore
         try {
             $this->run_restore_with_progress($filepath, $session_id);
-            error_log('BackupZen Restore: Completed successfully for session ' . $session_id);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Restore: Completed successfully for session ' . $session_id);
+            }
         } catch (Exception $e) {
-            error_log('BackupZen Restore: Exception - ' . $e->getMessage());
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Restore: Exception - ' . $e->getMessage());
+            }
         }
     
         // Clean up
         delete_transient('backupzen_restore_params_' . $session_id);
     
-        error_log('BackupZen Restore: All done for session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Restore: All done for session ' . $session_id);
+        }
         exit;
     }
     
@@ -2652,7 +2755,9 @@ class BackupZen
     
         $filepath = isset($params['filepath']) ? $params['filepath'] : '';
     
-        error_log('BackupZen Cron Restore: Starting with session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Cron Restore: Starting with session ' . $session_id);
+        }
     
         @set_time_limit(0);
         @ini_set('memory_limit', '768M');
@@ -2661,7 +2766,9 @@ class BackupZen
         
         delete_transient('backupzen_restore_params_' . $session_id);
         
-        error_log('BackupZen Cron Restore: Completed for session ' . $session_id);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen Cron Restore: Completed for session ' . $session_id);
+        }
     }
     
     /**
@@ -2729,11 +2836,11 @@ class BackupZen
         }
     
         // Check if file was uploaded
-        if (!isset($_FILES['backup_file']) || $_FILES['backup_file']['error'] !== UPLOAD_ERR_OK) {
+        if (!isset($_FILES['backup_file']) || !isset($_FILES['backup_file']['error']) || $_FILES['backup_file']['error'] !== UPLOAD_ERR_OK) {
             wp_send_json_error(array('message' => __('File upload failed.', 'backupzen')));
         }
     
-        $uploaded_file = $_FILES['backup_file'];
+        $uploaded_file = array_map('sanitize_text_field', $_FILES['backup_file']);
         $filename = sanitize_file_name($uploaded_file['name']);
         
         // Validate file type
@@ -2831,7 +2938,9 @@ class BackupZen
             
             $wpdb->flush();
             
-            error_log(sprintf('BackupZen Restore Progress: %s - %d%%', $step, $progress));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log(sprintf('BackupZen Restore Progress: %s - %d%%', $step, $progress));
+            }
         };
     
         try {
@@ -2939,7 +3048,9 @@ class BackupZen
         } catch (Exception $e) {
             $error_message = $e->getMessage();
             
-            error_log('BackupZen Restore Exception: ' . $error_message);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Restore Exception: ' . $error_message);
+            }
             
             global $wpdb;
             $option_name = '_transient_backupzen_restore_progress_' . $session_id;
@@ -2999,45 +3110,66 @@ class BackupZen
      */
     private function update_cron_schedule_old($enabled, $frequency, $time)
     {
-        error_log('BackupZen: update_cron_schedule called - Enabled: ' . ($enabled ? 'YES' : 'NO'));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: update_cron_schedule called - Enabled: ' . ($enabled ? 'YES' : 'NO'));
+        }
         
         // Clear existing schedule
         $timestamp = wp_next_scheduled('backupzen_scheduled_backup_event');
         if ($timestamp) {
             wp_unschedule_event($timestamp, 'backupzen_scheduled_backup_event');
-            error_log('BackupZen: Cleared existing schedule at ' . date('Y-m-d H:i:s', $timestamp));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+                error_log('BackupZen: Cleared existing schedule at ' . date('Y-m-d H:i:s', $timestamp));
+            }
         }
         
         // If disabled, stop here
         if (!$enabled) {
-            error_log('BackupZen: Schedule disabled, not rescheduling');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: Schedule disabled, not rescheduling');
+            }
             return;
         }
         
         // Calculate next run time
         $next_run = $this->calculate_next_run_time($frequency, $time);
         
-        error_log('BackupZen: Calculated next run: ' . date('Y-m-d H:i:s', $next_run) . ' (in ' . human_time_diff(time(), $next_run) . ')');
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+            error_log('BackupZen: Calculated next run: ' . date('Y-m-d H:i:s', $next_run) . ' (in ' . human_time_diff(time(), $next_run) . ')');
+        }
         
         // Schedule the event
         if ($next_run) {
             $result = wp_schedule_event($next_run, $frequency, 'backupzen_scheduled_backup_event');
             
             if ($result === false) {
-                error_log('BackupZen: ERROR - Failed to schedule event!');
+                if (defined('WP_DEBUG') && WP_DEBUG) {
+                    error_log('BackupZen: ERROR - Failed to schedule event!');
+                }
             } else {
-                error_log('BackupZen: Successfully scheduled backup');
+                if (defined('WP_DEBUG') && WP_DEBUG) {
+                    error_log('BackupZen: Successfully scheduled backup');
+                }
                 
                 // Verify it was scheduled
                 $verify = wp_next_scheduled('backupzen_scheduled_backup_event');
                 if ($verify) {
-                    error_log('BackupZen: VERIFIED - Next run at ' . date('Y-m-d H:i:s', $verify));
+                    if (defined('WP_DEBUG') && WP_DEBUG) {
+                        // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+                        error_log('BackupZen: VERIFIED - Next run at ' . date('Y-m-d H:i:s', $verify));
+                    }
                 } else {
-                    error_log('BackupZen: ERROR - Schedule verification failed!');
+                    if (defined('WP_DEBUG') && WP_DEBUG) {
+                        error_log('BackupZen: ERROR - Schedule verification failed!');
+                    }
                 }
             }
         } else {
-            error_log('BackupZen: ERROR - calculate_next_run_time returned null');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: ERROR - calculate_next_run_time returned null');
+            }
         }
     }
 
@@ -3063,6 +3195,7 @@ class BackupZen
             case 'hourly':
                 // Run at the top of the next hour
                 $next_run = strtotime('+1 hour', $current_time);
+                // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time calculation needed
                 $next_run = strtotime(date('Y-m-d H:00:00', $next_run));
                 break;
                 
@@ -3093,6 +3226,7 @@ class BackupZen
                 
             case 'weekly':
                 // Run weekly on Monday at specified time
+                // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local day of week needed
                 $current_day = date('N', $current_time);
                 
                 if ($current_day == 1) {
@@ -3112,7 +3246,10 @@ class BackupZen
                 break;
         }
         
-        error_log('BackupZen: Next backup scheduled for ' . date('Y-m-d H:i:s', $next_run));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+            error_log('BackupZen: Next backup scheduled for ' . date('Y-m-d H:i:s', $next_run));
+        }
         
         return $next_run;
     }
@@ -3122,9 +3259,12 @@ class BackupZen
  */
 public function run_scheduled_backup()
 {
-    error_log('BackupZen: ========================================');
-    error_log('BackupZen: SCHEDULED BACKUP STARTED at ' . date('Y-m-d H:i:s'));
-    error_log('BackupZen: ========================================');
+    if (defined('WP_DEBUG') && WP_DEBUG) {
+        error_log('BackupZen: ========================================');
+        // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time for logging
+        error_log('BackupZen: SCHEDULED BACKUP STARTED at ' . date('Y-m-d H:i:s'));
+        error_log('BackupZen: ========================================');
+    }
     
     try {
         // Increase limits
@@ -3136,9 +3276,11 @@ public function run_scheduled_backup()
         $schedule_database = get_option('backupzen_schedule_database', true);
         $schedule_format = get_option('backupzen_schedule_format', 'bzen');
         
-        error_log('BackupZen: Settings - Files: ' . ($schedule_files ? 'YES' : 'NO') . 
-                  ', DB: ' . ($schedule_database ? 'YES' : 'NO') . 
-                  ', Format: ' . $schedule_format);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Settings - Files: ' . ($schedule_files ? 'YES' : 'NO') . 
+                      ', DB: ' . ($schedule_database ? 'YES' : 'NO') . 
+                      ', Format: ' . $schedule_format);
+        }
         
         // Generate filename
         $site_name = sanitize_file_name(get_bloginfo('name'));
@@ -3147,7 +3289,9 @@ public function run_scheduled_backup()
         $filename = sprintf('%s-scheduled-%s.%s', $site_name, $timestamp, $schedule_format);
         $file_path = trailingslashit($this->get_backup_dir_path()) . $filename;
         
-        error_log('BackupZen: Creating backup: ' . $filename);
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen: Creating backup: ' . $filename);
+        }
         
         // Create backup based on format
         $result = false;
@@ -3194,13 +3338,17 @@ public function run_scheduled_backup()
         
         // Log result
         if ($result['success']) {
-            error_log('BackupZen: BACKUP SUCCESS!');
-            error_log('BackupZen: File: ' . $filename);
-            if (isset($result['file_size'])) {
-                error_log('BackupZen: Size: ' . size_format($result['file_size']));
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: BACKUP SUCCESS!');
+                error_log('BackupZen: File: ' . $filename);
+                if (isset($result['file_size'])) {
+                    error_log('BackupZen: Size: ' . size_format($result['file_size']));
+                }
             }
         } else {
-            error_log('BackupZen: BACKUP FAILED!');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: BACKUP FAILED!');
+            }
             if (isset($result['message'])) {
                 error_log('BackupZen: Error: ' . $result['message']);
             }
@@ -3336,6 +3484,7 @@ public function run_scheduled_backup()
             $next_run = wp_next_scheduled('backupzen_scheduled_backup_event');
             
             if ($next_run) {
+                // phpcs:ignore WordPress.DateTime.RestrictedFunctions.date_date -- Local time display for CLI
                 WP_CLI::success('Cron is scheduled for: ' . date('Y-m-d H:i:s', $next_run));
             } else {
                 WP_CLI::error('No cron event scheduled!');
@@ -3455,7 +3604,7 @@ public function run_scheduled_backup()
     public function render_dashboard_page()
     {
         if (!current_user_can('manage_options')) {
-            wp_die(__('You do not have sufficient permissions to access this page.', 'backupzen'));
+            wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'backupzen'));
         }
     
         // Get statistics
@@ -3479,7 +3628,7 @@ public function run_scheduled_backup()
     public function render_manual_backup_page()
     {
         if (!current_user_can('manage_options')) {
-            wp_die(__('You do not have sufficient permissions to access this page.', 'backupzen'));
+            wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'backupzen'));
         }
         
         include plugin_dir_path(__FILE__) . 'templates/manual-backup.php';
@@ -3491,7 +3640,7 @@ public function run_scheduled_backup()
     public function render_scheduled_page()
     {
         if (!current_user_can('manage_options')) {
-            wp_die(__('You do not have sufficient permissions to access this page.', 'backupzen'));
+            wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'backupzen'));
         }
         
         // Use new clean AJAX-based template (v2.0)
@@ -3504,7 +3653,7 @@ public function run_scheduled_backup()
     public function render_backups_page()
     {
         if (!current_user_can('manage_options')) {
-            wp_die(__('You do not have sufficient permissions to access this page.', 'backupzen'));
+            wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'backupzen'));
         }
         
         include plugin_dir_path(__FILE__) . 'templates/available-backups.php';
@@ -3518,7 +3667,7 @@ public function run_scheduled_backup()
     public function render_support_page()
     {
         if (!current_user_can('manage_options')) {
-            wp_die(__('You do not have sufficient permissions to access this page.', 'backupzen'));
+            wp_die(esc_html__('You do not have sufficient permissions to access this page.', 'backupzen'));
         }
         
         include plugin_dir_path(__FILE__) . 'templates/support.php';
@@ -3901,7 +4050,10 @@ public function run_scheduled_backup()
             ?>
             <span class="stat-badge">
                 <span class="dashicons dashicons-backup"></span>
-                <?php echo esc_html(sprintf(_n('%d Backup', '%d Backups', count($backups), 'backupzen'), count($backups))); ?>
+                <?php
+                /* translators: %d: Number of backups */
+                echo esc_html(sprintf(_n('%d Backup', '%d Backups', count($backups), 'backupzen'), count($backups)));
+                ?>
             </span>
             <span class="stat-badge">
                 <span class="dashicons dashicons-database"></span>
@@ -3921,14 +4073,19 @@ public function run_scheduled_backup()
         <div class="notice notice-success is-dismissible">
             <p>
                 <strong><?php echo esc_html__('Restore completed successfully!', 'backupzen'); ?></strong><br>
-                <?php echo esc_html(sprintf(__('Your site has been restored from backup: %s', 'backupzen'), $file)); ?>
+                <?php
+                /* translators: %s: Backup filename */
+                echo esc_html(sprintf(__('Your site has been restored from backup: %s', 'backupzen'), $file));
+                ?>
                 <?php if ($files_count > 0 || $tables_count > 0) : ?>
                     <br>
                     <?php
                     if ($files_count > 0) {
+                        /* translators: %d: Number of files restored */
                         echo esc_html(sprintf(_n('%d file restored.', '%d files restored.', $files_count, 'backupzen'), $files_count));
                     }
                     if ($tables_count > 0) {
+                        /* translators: %d: Number of database tables restored */
                         echo ' ' . esc_html(sprintf(_n('%d database table restored.', '%d database tables restored.', $tables_count, 'backupzen'), $tables_count));
                     }
                     ?>
@@ -3969,7 +4126,10 @@ public function run_scheduled_backup()
         <div class="notice notice-info is-dismissible">
             <p>
                 <strong><?php echo esc_html__('Restore functionality coming soon!', 'backupzen'); ?></strong><br>
-                <?php echo esc_html(sprintf(__('Restore logic for "%s" is not yet implemented.', 'backupzen'), $file)); ?>
+                <?php
+                /* translators: %s: Backup filename */
+                echo esc_html(sprintf(__('Restore logic for "%s" is not yet implemented.', 'backupzen'), $file));
+                ?>
             </p>
         </div>
     <?php

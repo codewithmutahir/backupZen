@@ -83,8 +83,13 @@ if (! defined('ABSPATH')) {
                 <div class="backupzen-feedback-rating">
                     <label><?php esc_html_e('Rate your experience', 'backupzen'); ?> <span class="required">*</span></label>
                     <div class="backupzen-stars">
-                        <?php for ($i = 1; $i <= 5; $i++) : ?>
-                            <button type="button" class="backupzen-star" data-rating="<?php echo esc_attr($i); ?>" aria-label="<?php echo esc_attr(sprintf(__('Rate %d stars', 'backupzen'), $i)); ?>">
+                        <?php
+                        // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Local template variable
+                        for ($i = 1; $i <= 5; $i++) : ?>
+                            <button type="button" class="backupzen-star" data-rating="<?php echo esc_attr($i); ?>" aria-label="<?php
+                            /* translators: %d: Star rating number (1-5) */
+                            echo esc_attr(sprintf(__('Rate %d stars', 'backupzen'), $i));
+                            ?>">
                                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
                                 </svg>

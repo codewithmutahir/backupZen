@@ -287,7 +287,10 @@ $stats = $this->get_backup_stats();
                         </div>
                         <h3 class="pro-feature-title">
                             <?php echo esc_html($feature['title']); ?>
-                            <?php echo $pro_manager->render_pro_badge(); ?>
+                            <?php
+                            // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped - render_pro_badge() already escapes output
+                            echo $pro_manager->render_pro_badge();
+                            ?>
                         </h3>
                         <p class="pro-feature-description">
                             <?php echo esc_html($feature['description']); ?>

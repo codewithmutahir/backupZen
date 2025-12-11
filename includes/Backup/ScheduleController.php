@@ -42,8 +42,8 @@ class ScheduleController
         try {
             // Get and sanitize inputs
             $enabled = isset($_POST['enabled']) ? (bool) $_POST['enabled'] : false;
-            $frequency = isset($_POST['frequency']) ? sanitize_text_field($_POST['frequency']) : 'daily';
-            $time = isset($_POST['time']) ? sanitize_text_field($_POST['time']) : '08:00';
+            $frequency = isset($_POST['frequency']) ? sanitize_text_field(wp_unslash($_POST['frequency'])) : 'daily';
+            $time = isset($_POST['time']) ? sanitize_text_field(wp_unslash($_POST['time'])) : '08:00';
             
             // Validate time format
             if (!preg_match('/^([01]?[0-9]|2[0-3]):([0-5][0-9])$/', $time)) {
@@ -65,7 +65,7 @@ class ScheduleController
                 update_option('backupzen_email_notifications', (bool) $_POST['email_enabled']);
             }
             if (isset($_POST['email_address'])) {
-                update_option('backupzen_email_address', sanitize_email($_POST['email_address']));
+                update_option('backupzen_email_address', sanitize_email(wp_unslash($_POST['email_address'])));
             }
             if (isset($_POST['email_on_failure'])) {
                 update_option('backupzen_email_on_failure', (bool) $_POST['email_on_failure']);
@@ -81,7 +81,7 @@ class ScheduleController
             
             // Save advanced settings
             if (isset($_POST['schedule_format'])) {
-                update_option('backupzen_schedule_format', sanitize_text_field($_POST['schedule_format']));
+                update_option('backupzen_schedule_format', sanitize_text_field(wp_unslash($_POST['schedule_format'])));
             }
             if (isset($_POST['schedule_files'])) {
                 update_option('backupzen_schedule_files', (bool) $_POST['schedule_files']);
@@ -123,7 +123,9 @@ class ScheduleController
             ));
             
         } catch (\Exception $e) {
-            error_log('BackupZen Schedule Controller Error: ' . $e->getMessage());
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen Schedule Controller Error: ' . $e->getMessage());
+            }
             wp_send_json_error(array('message' => 'Failed to save settings: ' . $e->getMessage()));
         }
     }
@@ -165,7 +167,7 @@ class ScheduleController
             wp_send_json_error(array('message' => 'Unauthorized'));
         }
         
-        $email = isset($_POST['email']) ? sanitize_email($_POST['email']) : '';
+        $email = isset($_POST['email']) ? sanitize_email(wp_unslash($_POST['email'])) : '';
         
         if (empty($email) || !is_email($email)) {
             wp_send_json_error(array('message' => 'Invalid email address'));

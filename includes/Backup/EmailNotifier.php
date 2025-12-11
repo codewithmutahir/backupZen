@@ -60,10 +60,14 @@ class EmailNotifier
         }
         
         $email_address = get_option('backupzen_email_address', get_option('admin_email'));
-        error_log('BackupZen EmailNotifier: - email address: ' . ($email_address ? $email_address : 'NOT SET'));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen EmailNotifier: - email address: ' . ($email_address ? $email_address : 'NOT SET'));
+        }
         
         if (empty($email_address)) {
-            error_log('BackupZen EmailNotifier: ✗ Email address not configured');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen EmailNotifier: ✗ Email address not configured');
+            }
             return array(
                 'success' => false,
                 'message' => __('Email address not configured', 'backupzen'),
@@ -79,6 +83,7 @@ class EmailNotifier
         $site_url = get_site_url();
         
         if ($result['success']) {
+            /* translators: %s: Site name */
             $subject = sprintf(
                 __('[%s] Backup Completed Successfully', 'backupzen'),
                 $site_name
@@ -89,12 +94,14 @@ class EmailNotifier
             
             $file_size = isset($result['file_size']) ? size_format($result['file_size']) : 'Unknown';
             
+            /* translators: 1: Backup filename, 2: File size */
             $details = sprintf(
-                __('Backup file: %s<br>File size: %s', 'backupzen'),
+                __('Backup file: %1$s<br>File size: %2$s', 'backupzen'),
                 esc_html($filename),
                 esc_html($file_size)
             );
         } else {
+            /* translators: %s: Site name */
             $subject = sprintf(
                 __('[%s] Backup Failed', 'backupzen'),
                 $site_name
@@ -105,6 +112,7 @@ class EmailNotifier
             
             $error_message = isset($result['message']) ? $result['message'] : __('Unknown error', 'backupzen');
             
+            /* translators: %s: Error message */
             $details = sprintf(
                 __('Error: %s', 'backupzen'),
                 esc_html($error_message)
@@ -130,25 +138,33 @@ class EmailNotifier
         );
         
         // Send email
-        error_log('BackupZen EmailNotifier: Attempting to send email via wp_mail()...');
-        error_log('BackupZen EmailNotifier: - To: ' . $email_address);
-        error_log('BackupZen EmailNotifier: - Subject: ' . $subject);
-        error_log('BackupZen EmailNotifier: - Message length: ' . strlen($message) . ' bytes');
-        error_log('BackupZen EmailNotifier: - Headers: ' . count($headers) . ' headers');
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen EmailNotifier: Attempting to send email via wp_mail()...');
+            error_log('BackupZen EmailNotifier: - To: ' . $email_address);
+            error_log('BackupZen EmailNotifier: - Subject: ' . $subject);
+            error_log('BackupZen EmailNotifier: - Message length: ' . strlen($message) . ' bytes');
+            error_log('BackupZen EmailNotifier: - Headers: ' . count($headers) . ' headers');
+        }
         
         $sent = wp_mail($email_address, $subject, $message, $headers);
         
-        error_log('BackupZen EmailNotifier: wp_mail() returned: ' . ($sent ? 'TRUE (success)' : 'FALSE (failed)'));
+        if (defined('WP_DEBUG') && WP_DEBUG) {
+            error_log('BackupZen EmailNotifier: wp_mail() returned: ' . ($sent ? 'TRUE (success)' : 'FALSE (failed)'));
+        }
         
         if ($sent) {
-            error_log('BackupZen EmailNotifier: ✓✓✓ EMAIL SENT SUCCESSFULLY TO ' . $email_address . ' ✓✓✓');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen EmailNotifier: ✓✓✓ EMAIL SENT SUCCESSFULLY TO ' . $email_address . ' ✓✓✓');
+            }
             return array(
                 'success' => true,
                 'message' => __('Email notification sent successfully', 'backupzen'),
             );
         } else {
-            error_log('BackupZen EmailNotifier: ✗✗✗ FAILED TO SEND EMAIL ✗✗✗');
-            error_log('BackupZen EmailNotifier: Check WordPress debug log for wp_mail() errors');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen EmailNotifier: ✗✗✗ FAILED TO SEND EMAIL ✗✗✗');
+                error_log('BackupZen EmailNotifier: Check WordPress debug log for wp_mail() errors');
+            }
             return array(
                 'success' => false,
                 'message' => __('Failed to send email notification', 'backupzen'),
@@ -200,11 +216,12 @@ class EmailNotifier
                 ? TimezoneConverter::utc_timestamp_to_local_time($next_run, 'F j, Y \a\t g:i A')
                 : __('Pending...', 'backupzen');
             
+            /* translators: 1: Backup frequency (e.g., "Daily"), 2: Backup time (e.g., "3:00 PM"), 3: Next backup date/time */
             $details = sprintf(
                 __('Your backup schedule has been configured!<br><br>
-                <strong>Frequency:</strong> %s<br>
-                <strong>Time:</strong> %s<br>
-                <strong>Next Backup:</strong> %s<br><br>
+                <strong>Frequency:</strong> %1$s<br>
+                <strong>Time:</strong> %2$s<br>
+                <strong>Next Backup:</strong> %3$s<br><br>
                 Your site will be automatically backed up according to this schedule.', 'backupzen'),
                 ucfirst(esc_html($schedule_info['frequency'])),
                 esc_html($time_12hr),
@@ -240,16 +257,21 @@ class EmailNotifier
         $sent = wp_mail($email_address, $subject, $message, $headers);
         
         if ($sent) {
-            error_log('BackupZen: Schedule confirmation email sent to ' . $email_address);
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: Schedule confirmation email sent to ' . $email_address);
+            }
             return array(
                 'success' => true,
+                /* translators: %s: Email address */
                 'message' => sprintf(
                     __('Schedule confirmation sent to %s', 'backupzen'),
                     $email_address
                 ),
             );
         } else {
-            error_log('BackupZen: Failed to send schedule confirmation email');
+            if (defined('WP_DEBUG') && WP_DEBUG) {
+                error_log('BackupZen: Failed to send schedule confirmation email');
+            }
             return array(
                 'success' => false,
                 'message' => __('Failed to send confirmation email.', 'backupzen'),
@@ -279,6 +301,7 @@ class EmailNotifier
         $tz_info = TimezoneConverter::get_timezone_info();
         $current_local_time = TimezoneConverter::get_current_local_time('F j, Y \a\t g:i A');
         
+        /* translators: %s: Site name */
         $subject = sprintf(
             __('[%s] Test Email from BackupZen', 'backupzen'),
             $site_name
@@ -305,6 +328,7 @@ class EmailNotifier
         if ($sent) {
             return array(
                 'success' => true,
+                /* translators: %s: Email address */
                 'message' => sprintf(
                     __('Test email sent successfully to %s', 'backupzen'),
                     $email_address
@@ -366,7 +390,7 @@ class EmailNotifier
                                 <td style="padding: 0 30px 30px 30px;">
                                     <div style="background-color: #f9fafb; border-radius: 8px; padding: 20px; border-left: 4px solid <?php echo esc_attr($data['status_color']); ?>;">
                                         <p style="margin: 0; color: #374151; font-size: 14px; line-height: 1.6;">
-                                            <?php echo $data['details']; ?>
+                                            <?php echo wp_kses_post($data['details']); ?>
                                         </p>
                                     </div>
                                 </td>

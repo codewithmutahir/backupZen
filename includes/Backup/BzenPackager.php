@@ -346,6 +346,7 @@ class BzenPackager {
 			$current_table++;
 
 			// Get table structure.
+			// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Table name cannot be prepared, but is validated from $wpdb->prefix
 			$create_table = $wpdb->get_row( "SHOW CREATE TABLE `{$table_name}`", ARRAY_N );
 			if ( $create_table ) {
 				fwrite( $handle, "\n-- Table structure for `{$table_name}`\n" );
@@ -355,8 +356,9 @@ class BzenPackager {
 
 			// Report progress for table structure (5-20%)
 			$structure_progress = 5 + (($current_table / $total_tables) * 15);
+			/* translators: 1: Table name, 2: Current table number, 3: Total number of tables */
 			$report_progress(
-				sprintf(__('Exporting table structure: %s (%d of %d)', 'backupzen'), $table_name, $current_table, $total_tables),
+				sprintf(__('Exporting table structure: %1$s (%2$d of %3$d)', 'backupzen'), $table_name, $current_table, $total_tables),
 				min(20, (int)$structure_progress)
 			);
 		}
@@ -373,6 +375,7 @@ class BzenPackager {
 			$row_count = 0;
 			
 			// Get total rows for this table for accurate progress
+			// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Table name cannot be prepared, but is validated from $wpdb->prefix
 			$total_rows_result = $wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM `{$table_name}`"));
 			$total_rows = intval($total_rows_result);
 			
@@ -381,9 +384,10 @@ class BzenPackager {
 			}
 			
 			while ( true ) {
+				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Table name cannot be prepared, but is validated from $wpdb->prefix
 				$rows = $wpdb->get_results( 
 					$wpdb->prepare( "SELECT * FROM `{$table_name}` LIMIT %d OFFSET %d", $limit, $offset ),
-					ARRAY_A 
+					ARRAY_A
 				);
 				
 				if ( empty( $rows ) ) {
@@ -417,8 +421,9 @@ class BzenPackager {
 					
 					// Report every 100 rows or at completion for more frequent updates
 					if ($row_count % 100 === 0 || $row_count === $total_rows) {
+						/* translators: 1: Table name, 2: Current row count, 3: Total number of rows */
 						$report_progress(
-							sprintf(__('Exporting table data: %s (%d of %d rows)', 'backupzen'), $table_name, $row_count, $total_rows),
+							sprintf(__('Exporting table data: %1$s (%2$d of %3$d rows)', 'backupzen'), $table_name, $row_count, $total_rows),
 							min(95, (int)$table_data_progress)
 						);
 					}
@@ -1107,8 +1112,9 @@ private function create_zip_payload_with_progress($temp_dir, $options, $progress
             // Map file progress (0-100) to database section (35-95)
             $percent = $total > 0 ? ($current / $total) * 100 : 0;
             $mapped_percent = 35 + ($percent * 0.60);
+            /* translators: 1: Current file number, 2: Total number of files */
             $report_progress(
-                sprintf(__('Adding files: %d of %d', 'backupzen'), $current, $total),
+                sprintf(__('Adding files: %1$d of %2$d', 'backupzen'), $current, $total),
                 (int)$mapped_percent
             );
         });
